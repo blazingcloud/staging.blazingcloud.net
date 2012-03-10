@@ -4,9 +4,9 @@ require 'httparty'
 require 'ostruct'
 require 'stringio'
 get '/' do
-  html = StringIO.new
+  articles = StringIO.new
   HTTParty.get('http://blazingcloud.net/feed/json').each do |article|
-    html << erb(:article, :locals => {:article => OpenStruct.new(article)})
+    articles << erb(:article, :locals => {:article => OpenStruct.new(article)})
   end
-  html.string
+  erb(:index, :locals => {:articles => articles.string})
 end
