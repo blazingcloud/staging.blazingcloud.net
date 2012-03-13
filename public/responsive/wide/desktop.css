@@ -1,13 +1,21 @@
-body,header, footer,.main {
+header,.main, footer section{
   min-width:64em;
   max-width:64em;
 }
-
-/* part of my responsive grid */
-.column {
-  width:30%; /* 2 column */
+footer {
+  min-width:100%;
+  max-width:100%;
+  margin: 0 auto;
 }
-
+/* part of my responsive grid */
+.main .column {
+  width:30em; /* 2 column */
+}
+.main .column > p,
+.main .column > .title
+{
+  left:25%;
+}
 .debug {
 background:yellow;
 }
