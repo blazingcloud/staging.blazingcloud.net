@@ -32,12 +32,15 @@ clear:both;
 }
 
 header article > em,
-article > img.leader {
+article > .leader {
   display:inline;
   float:left;
   width:35%
 }
-article > em {
+.title {
+  display:block;
+}
+article > .title {
   font-weight:bold;
   font-size:1.5em;
 }
@@ -56,11 +59,12 @@ footer {
 footer article > a {
   color: rgb(199,199,199)
 }
-footer article > em {
+footer article > .title {
   text-transform:uppercase;
   font-family:'roboto-condensed-bold';
   color:rgb(206,122,45)	;
   margin-bottom:1em;
+  font-size:1em;
 }
 footer article  * {
   font-size:0.9em;

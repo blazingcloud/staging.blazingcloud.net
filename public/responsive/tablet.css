@@ -1,6 +1,11 @@
 .column {
   width:47%
 }
+footer img,
+header img {
+width:180px;
+
+}
 .debug {
 background:magenta;
 }

@@ -3,7 +3,8 @@ body,header, footer {
 }
 footer img,
 header img {
-min-width:64em;
+width:180px;
+
 }
 /* part of my responsive grid */
 .column {
