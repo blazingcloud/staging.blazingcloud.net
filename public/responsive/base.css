@@ -22,7 +22,15 @@ footer > section {
   width:20em;
   height:118px;
 }
-
+.bottom-logo {
+  background:url('/images/services/services_footer_logo.png') no-repeat;
+  width:20em;
+  height:72px;
+}
+.bottom section{
+  position:absolute;
+  top:7em;
+}
 nav {
   margin:0 auto;
 }

@@ -8,3 +8,7 @@ nav li {
   float:left;
   margin-right:1em;
 }
+.bottom .column {
+  width:10em;
+}
+
