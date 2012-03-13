@@ -9,17 +9,42 @@ a.active { color: rgb(220,124,58); }
 
 body,header, footer {
   width:100%;
+  margin: 0 auto;
+  position:relative;
 }
-footer img,
-header img {
-width:100%;
+
+/*  responsive content */
+.logo {
+  background:url('/images/services/services_header_logo.png') no-repeat;
+  width:20em;
+  height:72px
 }
+nav {
+  margin:0 auto;
+}
+nav li {
+  float:left;
+  margin-right:1em;
+}
+
+
 header .introduction {
+  clear:both;
   margin-bottom:1em;
   width:100%;
+  padding-bottom:1em;
+  border-bottom: 1px solid rgb(221,219,212);
+}
+header .introduction em {
+  font-weight:bold;
+  font-size:1.3em;
+
 }
 header .introduction p {
   font-size:0.9em;
+  font-size:1em;
+  font-family: roboto-condensed-bold;
+  
 }
 /* part of my responsive grid */
 .column {
@@ -31,20 +56,30 @@ header .introduction p {
 .main {
 clear:both;
 }
-
-article > .leader {
-  display:inline;
-  float:left;
-  width:35%
+.column {
+  position:relative;
+  margin:1em;
 }
-article > .title {
+.column > .leader {
+  position:absolute;
+  width:35%
+  margin: 0 1em;
+ 
+}
+.column > .title {
+  position:absolute;
+  left:35%;
+  top:0em;
   display:block;
   font-weight:bold;
-  font-size:1.5em;
+  font-size:1.3em;
 }
-article > p {
-  margin:2%;
-  font-size:1.2em;
+.column > p {
+  position:absolute;
+  left:35%;
+  top:4em;
+  font-size:1em;
+  font-family: roboto-condensed-bold;
 }
 
 footer {

@@ -1,0 +1,10 @@
+nav {
+  position:absolute;
+  right:0em;
+  top:1em;
+  margin: inherit;
+}
+nav li {
+  float:left;
+  margin-right:1em;
+}

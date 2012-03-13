@@ -1,11 +1,8 @@
-body,header, footer {
+body,header, footer,.main {
   min-width:64em;
+  max-width:64em;
 }
-footer img,
-header img {
-width:180px;
 
-}
 /* part of my responsive grid */
 .column {
   width:30%; /* 2 column */

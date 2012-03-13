@@ -1,6 +1,6 @@
 /* part of my responsive grid */
 .column {
-  width:48%; /* 2 column-  24-2em margin */
+  width:42%; /* 2 column-  24-2em margin */
 }
 .introduction {
   min-height:1em;
