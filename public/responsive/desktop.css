@@ -1,0 +1,16 @@
+body,header, footer {
+  min-width:64em;
+}
+footer img,
+header img {
+min-width:64em;
+}
+/* part of my responsive grid */
+.column {
+  width:30%; /* 2 column */
+}
+
+.debug {
+background:yellow;
+}
+
