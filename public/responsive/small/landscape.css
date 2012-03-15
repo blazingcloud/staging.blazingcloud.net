@@ -1,12 +1,15 @@
 /* part of my responsive grid */
 .column {
-  width:42%; /* 2 column-  24-2em margin */
+  width:42%;
 }
 .introduction {
   min-height:1em;
 }
-.main img {
-  width:20%;
+.column {
+  min-height:18em;
+}
+.main .leader {
+  width:6em;
 }
 .debug {
 background:blue;

@@ -86,13 +86,12 @@ clear:both;
 }
 .main .column > .leader {
   position:absolute;
-  width:35%
-  margin: 0 1em;
+  margin: 0 0;
  
 }
 .main .column > .title {
   position:absolute;
-  left:35%;
+  left:5em;
   top:0em;
   display:block;
   font-weight:bold;
@@ -100,7 +99,7 @@ clear:both;
 }
 .main .column > p {
   position:absolute;
-  left:35%;
+  left:7em;
   top:4em;
   font-size:1em;
   font-family: roboto-condensed-bold;
