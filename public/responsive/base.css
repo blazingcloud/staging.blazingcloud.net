@@ -38,7 +38,15 @@ nav li {
   float:left;
   margin-right:1em;
 }
-
+.title {
+  display:block;
+  font-family: pt-sans-narrow-bold;
+  font-size:1.3em;
+}
+p {
+  font-size:1em;
+  font-family: roboto-condensed-bold;
+}
 /*
  *
  * if the display was 3 rows / 'introduction' would be the first row
@@ -93,16 +101,11 @@ clear:both;
   position:absolute;
   left:5em;
   top:0em;
-  display:block;
-  font-weight:bold;
-  font-size:1.3em;
 }
 .main .column > p {
   position:absolute;
   left:7em;
   top:4em;
-  font-size:1em;
-  font-family: roboto-condensed-bold;
 }
 
 footer {
