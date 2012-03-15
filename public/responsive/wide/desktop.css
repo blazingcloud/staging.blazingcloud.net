@@ -7,16 +7,11 @@ footer {
   max-width:100%;
   margin: 0 auto;
 }
-/* part of my responsive grid */
-.main .column {
-  width:30em; /* 2 column */
-}
-.main .column > p,
-.main .column > .title
+.tile .column > p,
+.tile .column > .title
 {
   left:25%;
 }
 .debug {
 background:yellow;
 }
-

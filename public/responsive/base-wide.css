@@ -12,3 +12,12 @@ nav li {
   width:10em;
 }
 
+.column {
+  width:42%
+}
+
+/* homepage */
+.services .column {
+  width:19em; /* 3 column */
+}
+
