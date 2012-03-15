@@ -57,6 +57,7 @@ p {
  .introduction {
   clear:both;
   margin-bottom:1em;
+  margin-left:1em;
   width:100%;
   padding-bottom:1em;
   border-bottom: 1px solid rgb(221,219,212);
@@ -68,7 +69,6 @@ p {
 }
 .introduction p {
   font-size:0.9em;
-  font-size:1em;
   font-family: roboto-condensed-bold;
   
 }
