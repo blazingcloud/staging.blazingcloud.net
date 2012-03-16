@@ -48,11 +48,12 @@ nav li a {
 .title {
   display:block;
   font-family: pt-sans-narrow-bold;
-  font-size:2em;
+  font-size:1.8em;
 }
 article, p {
-  font-size:1.2em;
-  line-height:1.7em;
+  font-size:1em;
+  line-height:1.5em;
+  margin-top:1em;
   font-family: bitter;
 }
 code, pre {
@@ -91,24 +92,11 @@ code, pre {
 clear:both;
 }
 .column {
-  position:relative;
   margin:1em;
 }
 .tile .column > .leader {
-  position:absolute;
-  margin: 0 0;
- 
-}
-/* Align Title and P inside of tile columns */
-.tile .column > .title {
-  position:absolute;
-  left:120px; /* pixels used here as font-sizes are different */
-  top:0px;
-}
-.tile .column > p {
-  position:absolute;
-  left:120px; /* pixels used here as font-sizes are different */
-  top:3em;
+  margin: 0 1em;
+  float:left; /* content will flow around this  */
 }
 
 footer {
