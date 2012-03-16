@@ -19,5 +19,6 @@ nav li {
 /* homepage */
 .homepage .strategy .tile {
   width:19em; /* 3 tiles in grid */
+  margin-bottom:2em;
 }
 
