@@ -19,10 +19,9 @@ body {
   clear:both;
 }
 
-/* our base grid tile has a minimum height of 15*16px */
+/* our base grid tile*/
 .grid .tile {
   margin:1em;
-  min-height:15em;
 }
 
 /* optionally a grid tile can have a  leader - an image or another block element
