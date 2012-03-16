@@ -48,11 +48,12 @@ nav li a {
 .title {
   display:block;
   font-family: pt-sans-narrow-bold;
-  font-size:1.3em;
+  font-size:2em;
 }
-p{
-  font-size:1em;
-  font-family: roboto-condensed-bold;
+article, p {
+  font-size:1.2em;
+  line-height:1.7em;
+  font-family: bitter;
 }
 code, pre {
   font-family:courier;
@@ -72,16 +73,6 @@ code, pre {
   width:100%;
   padding-bottom:1em;
   border-bottom: 1px solid rgb(221,219,212);
-}
- .introduction em {
-  font-weight:bold;
-  font-size:1.3em;
-
-}
-.introduction p {
-  font-size:0.9em;
-  font-family: roboto-condensed-bold;
-  
 }
 /* part of my responsive grid */
 .column {
