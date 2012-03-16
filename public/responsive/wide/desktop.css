@@ -7,8 +7,8 @@ footer {
   max-width:100%;
   margin: 0 auto;
 }
-.tile .column > p,
-.tile .column > .title
+.grid .tile > p,
+.grid .tile > .title
 {
   left:25%;
 }

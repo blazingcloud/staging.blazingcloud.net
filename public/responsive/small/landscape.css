@@ -1,11 +1,11 @@
 /* part of my responsive grid */
-.column {
+.tile {
   width:42%;
 }
 .introduction {
   min-height:1em;
 }
-.column {
+.tile {
   min-height:18em;
 }
 .debug {

@@ -8,16 +8,16 @@ nav li {
   float:left;
   margin-right:1em;
 }
-.bottom .column {
+.bottom .tile {
   width:10em;
 }
 
-.column {
+.grid .tile {
   width:42%
 }
 
 /* homepage */
-.services .column {
-  width:19em; /* 3 column */
+.services .tile {
+  width:19em; /* 3 tiles in grid */
 }
 

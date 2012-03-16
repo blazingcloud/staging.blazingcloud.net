@@ -7,16 +7,28 @@ a { color: rgb(226,143,86); font-weight:bold;}
 a:hover  { color: rgb(226,143,86); }
 a.active { color: rgb(124,63,9); }	
 
-body,
-.main,
-header,
-footer > section {
+/* 
+ * these elements are certain to be nested under body 
+ * their dimensions may be re-configured for a successive css media 
+ *
+ * */
+body .main,
+body header,
+body footer > section {
   margin: 0 auto;
   width:100%;
   position:relative;
 }
 
 /*  responsive content */
+
+/* these responsive images are using a very primative technique
+ * of turning a div into a fixed size container for the purpose
+ * of displaying an image.
+ *
+ * the background image can be re-declared for a more specific
+ * media in this manner for another device
+ */
 .logo {
   background:url('/images/logo/with-shadow.png') no-repeat;
   width:20em;
@@ -27,10 +39,8 @@ footer > section {
   width:20em;
   height:72px;
 }
-.bottom section{
-  position:absolute;
-  top:7em;
-}
+/* end responsive content */
+
 nav {
   margin:0 auto;
   padding-left:1em;
@@ -59,14 +69,8 @@ article, p {
 code, pre {
   font-family:courier;
 }
-/*
- *
- * if the display was 3 rows / 'introduction' would be the first row
- *
- *
- */
 
- .introduction {
+header .introduction {
   clear:both;
   margin-bottom:1em;
   margin-left:1em;
@@ -74,29 +78,6 @@ code, pre {
   width:100%;
   padding-bottom:1em;
   border-bottom: 1px solid rgb(221,219,212);
-}
-/* part of my responsive grid */
-.column {
-  float:left;
-  min-height:20em;
-  width:98%;
-  margin:2% 1%; 
-}
-/*
- *
- * if the display was 3 rows / 'main' would be the middle row
- *
- *
- */
-.main {
-clear:both;
-}
-.column {
-  margin:1em;
-}
-.tile .column > .leader {
-  margin: 0 1em;
-  float:left; /* content will flow around this  */
 }
 
 footer {
@@ -109,31 +90,35 @@ footer {
 
 /*
  *
- * if the display was 3 rows / 'bottom' would be the lowest row
- *
+ * The bottom section of the page re-declares our grid tile to be compressed
+ * in a manner that is different from our default grid tile settings 
  *
  */
+.bottom section{
+  position:absolute;
+  top:7em;
+}
 
-.bottom .column > a {
+.bottom .tile > a {
   color: rgb(199,199,199)
 }
-.bottom .column > .title {
+.bottom .tile > .title {
 
   text-transform:uppercase;
   color:rgb(206,122,45)	;
   margin-bottom:1em;
   font-size:1em;
 }
-.bottom .column  * {
+.bottom .tile  * {
   font-size:0.9em;
 }
-.bottom .column li {
+.bottom .tile li {
   margin:0.5em 0;
 }
-.bottom .column a,footer .column time {
+.bottom .tile a,footer .tile time {
   display:block;
 }
-.bottom .column {
+.bottom .tile {
   width:14em;
 }
 
@@ -141,6 +126,6 @@ footer {
 background:green;
 }
 /* blog */
-.blog .column {
+.blog .tile {
   width:100%;
 }
