@@ -77,7 +77,7 @@ code, pre {
 /* part of my responsive grid */
 .column {
   float:left;
-  min-height:13em;
+  min-height:20em;
   width:98%;
   margin:2% 1%; 
 }
@@ -108,7 +108,7 @@ clear:both;
 .tile .column > p {
   position:absolute;
   left:120px; /* pixels used here as font-sizes are different */
-  top:4em;
+  top:3em;
 }
 
 footer {
