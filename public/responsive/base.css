@@ -30,7 +30,7 @@ body footer > section {
  * media in this manner for another device
  */
 .logo {
-  background:url('/images/logo/with-shadow.png') no-repeat;
+  background:url('/images/logo/with-shadow.png') no-repeat 0 0;
   width:20em;
   height:118px;
 }
@@ -50,11 +50,10 @@ body footer > section {
   text-shadow: 1px 1px 1px #fff;
 }
 .branding .mobiles {
-  background:url('/images/branding/mobiles-320.png') no-repeat 0 0;
-  position:relative;
-  top:1em;
-  left:4em;
-  height: 295px;
+  background-position: center center;
+  background-image:url('/images/branding/mobiles-320.png');
+  background-repeat:no-repeat;
+  height: 10em;
 }
 /* end responsive content */
 

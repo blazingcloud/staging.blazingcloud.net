@@ -14,12 +14,8 @@
 }
 
 .branding .mobiles {
-  background:url('/images/branding/mobiles-full.png') no-repeat  0 0 ;
-  position: absolute;
+  background-image:url('/images/branding/mobiles-full.png');
   height: 400px;
-  width: 2000px;
-  left: 0px;
-  top: 10em;
 }
 
 header,.main, footer section{

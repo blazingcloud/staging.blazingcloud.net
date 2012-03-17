@@ -2,6 +2,7 @@
 background:magenta;
 }
 .branding .mobiles {
-  background:url('/images/branding/mobiles-tablet.png');
+  background-image:url('/images/branding/mobiles-728.png');
+  height:20em;
 }
 
