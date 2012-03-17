@@ -1,3 +1,27 @@
+.brand-texture {
+  height:497px;
+}
+.branding {
+  height:560px;
+}
+.branding .clouds {
+  background:url('/images/branding/clouds.png') no-repeat scroll top left transparent;
+  position: absolute;
+  height:1000px;
+  width: 2000px;
+  left: -441px;
+  top: 0px;
+}
+
+.branding .mobiles {
+  background:url('/images/branding/mobiles-full.png') no-repeat  0 0 ;
+  position: absolute;
+  height: 400px;
+  width: 2000px;
+  left: 0px;
+  top: 10em;
+}
+
 header,.main, footer section{
   min-width:64em;
   max-width:64em;

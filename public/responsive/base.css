@@ -39,12 +39,30 @@ body footer > section {
   width:20em;
   height:72px;
 }
+.branding {
+  position:relative;
+  overflow:hidden;
+  height: 300px;
+}
+.branding .pitch {
+  font-size:2em;
+  color:black;
+  text-shadow: 1px 1px 1px #fff;
+}
+.branding .mobiles {
+  background:url('/images/branding/mobiles-320.png') no-repeat 0 0;
+  position:relative;
+  top:1em;
+  left:4em;
+  height: 295px;
+}
 /* end responsive content */
 
 nav {
   margin:0 auto;
   padding-left:1em;
   padding-right:1em;
+  padding-bottom:3em;
 }
 nav li {
   float:left;
@@ -77,9 +95,13 @@ header .introduction {
   margin-top:4em;
   width:100%;
   padding-bottom:1em;
-  border-bottom: 1px solid rgb(221,219,212);
 }
 
+.underline {
+  clear:both;
+  border-bottom: 1px solid rgb(221,219,212);
+  width:100%;
+}
 footer {
   color:rgb(250,250,250);
   font-weight:bold;

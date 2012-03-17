@@ -16,9 +16,28 @@ nav li {
   width:42%
 }
 
+
+
+
 /* homepage */
 .homepage .strategy .tile {
   width:19em; /* 3 tiles in grid */
   margin-bottom:2em;
+}
+.brand-texture {
+  background:url('/images/branding/texture.png') repeat scroll top left;
+  position:absolute;
+  width:100%;
+  top:89px;
+  left:0px;
+  height:205px;
+}
+.branding .cutout {
+  background:url('/images/branding/cutout.png') no-repeat scroll top left;
+  position:absolute;
+  width:100%;
+  top:26px;
+  left:58px;
+  height:335px;
 }
 

@@ -1,4 +1,7 @@
 .debug {
 background:magenta;
 }
+.branding .mobiles {
+  background:url('/images/branding/mobiles-tablet.png');
+}
 
