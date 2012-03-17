@@ -35,7 +35,9 @@ body footer > section {
   height:118px;
 }
 .bottom-logo {
-  background:url('/images/services/services_footer_logo.png') no-repeat;
+  background-image:url('/images/logo/only-shadow.png');
+  background-repeat:no-repeat;
+  background-position: center center;
   width:20em;
   height:72px;
 }
