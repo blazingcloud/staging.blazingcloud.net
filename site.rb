@@ -8,6 +8,6 @@ class Site < Sinatra::Base
     erb(:service)
   end
   get '/services' do
-    erb(:service)
+    erb(:services)
   end
 end
