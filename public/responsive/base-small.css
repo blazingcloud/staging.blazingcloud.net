@@ -5,3 +5,6 @@ nav {
   width:20em;
   margin:0 auto;
 }
+.services .tile .leader {
+margin-bottom: 3em; /* hack to make the image longer so the text doesn't wrap */
+}
