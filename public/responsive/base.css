@@ -16,16 +16,18 @@ a.active { color: rgb(124,63,9); text-decoration:underline; }
  * their dimensions may be re-configured for a successive css media 
  *
  * */
-body .main,
 body header,
 body footer > section {
   margin: 0 auto;
-  width:100%;
+  width:99%;
   position:relative;
 }
-.main {
-  padding-left:5%;
-  padding-right:5%;
+body .main {
+  width:98%;
+  margin: 0 auto;
+  padding-left:1%;
+  padding-right:1%;
+  position:relative;
 }
 
 /*  responsive content */
