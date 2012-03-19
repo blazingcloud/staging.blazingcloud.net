@@ -160,7 +160,17 @@ background:green;
 .blog .tile {
   width:100%;
 }
-
+/* services */
 .services .tile {
  margin-bottom:3em;
 }
+
+/* homepage */
+.homepage .about .title {
+  display:inline;
+  font-size:1.2em;
+}
+.homepage .about article {
+ font-size: 1.2em;
+}
+
