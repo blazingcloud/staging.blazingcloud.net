@@ -43,10 +43,10 @@ nav li {
 /* .branding */
 .brand-solid-texture {
   background:url('/images/branding/texture.png') repeat center center transparent;
-  height:400px;
+  height:419px;
   position:absolute;
   position:absolute;
-  top:88px;
+  top:69px;
   width:inherit;
 }
 
