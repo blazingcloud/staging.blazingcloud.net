@@ -25,6 +25,9 @@ nav li {
   width:10em;
 }
 
+.logo {
+  background-position: 0 0;
+}
 
 .bottom-logo {
   background:url('/images/services/services_footer_logo.png') no-repeat;
@@ -38,7 +41,7 @@ nav li {
   height:400px;
   position:absolute;
   position:absolute;
-  top:91px;
+  top:88px;
   width:inherit;
 }
 

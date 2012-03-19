@@ -2,10 +2,9 @@
 background:blue;
 }
 .branding {
-  height:24em;
+  height:25em;
 }
-
 .branding .mobiles {
   background-image:url('/images/branding/mobiles-1-480.png');
-  height:16em;
+  height:15em;
 }
