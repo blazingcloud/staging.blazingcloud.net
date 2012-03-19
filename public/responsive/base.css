@@ -26,13 +26,9 @@ body .main {
   margin: 0 auto;
   padding-left:1%;
   padding-right:1%;
-  padding-bottom:10em;
   position:relative;
 }
 
-body section {
-  margin-bottom:2em;
-}
 /*  responsive content */
 
 /* these responsive images are using a very primative technique
@@ -155,7 +151,6 @@ header .introduction {
 .underline {
   clear:both;
   border-bottom: 1px solid rgb(252,250,246);
-  margin-top:2em;
   width:100%;
   position:relative;
   top:9px;
@@ -211,6 +206,10 @@ footer {
 .services .tile {
  margin-bottom:3em;
 }
+.services .tile > .leader {
+  margin: 0 1em;
+  float:left; /* content will flow around this  */
+}
 
 /* homepage */
 .homepage .about .title {
@@ -223,8 +222,5 @@ footer {
 .homepage .about a {
  font-family: PTSansNarrowBold;
  font-size: 1.2em;
-}
-.homepage .community .leader {
-  margin-bottom:6em; /*hack to prevent word wrap */
 }
 

@@ -18,7 +18,7 @@ body {
 /* grid can appear multiple times in the display 
  * each grid ensures that new tiles inside it begin on a new
  * line */
-.grid {
+.clear,.grid {
   clear:both;
 }
 
@@ -29,6 +29,5 @@ body {
 /* optionally a grid tile can have a  leader - an image or another block element
  * which the remaining content internal to the tile will flow around */
 .grid .tile > .leader {
-  margin: 0 1em;
-  float:left; /* content will flow around this  */
+ /* float:left; /* content will flow around this  */ 
 }
