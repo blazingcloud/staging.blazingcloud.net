@@ -1,19 +1,28 @@
+.grid .tile {
+  width:49%;
+  margin-left:0.5%;
+  margin-right:0.5%;
+
+}
+
+.debug {
+  background:#CCC;
+}
+
 nav {
   position:absolute;
   right:0em;
   top:1em;
   margin: inherit;
 }
+
 nav li {
   float:left;
   margin-right:1em;
 }
+
 .bottom .tile {
   width:10em;
-}
-
-.grid .tile {
-  width:42%
 }
 
 
@@ -23,13 +32,7 @@ nav li {
   height:72px;
 }
 
-
-/* homepage */
-.homepage .strategy .tile {
-  width:19em; /* 3 tiles in grid */
-  margin-bottom:2em;
-}
-
+/* .branding */
 .brand-solid-texture {
   background:url('/images/branding/texture.png') repeat center center transparent;
   height:400px;
@@ -49,3 +52,21 @@ nav li {
   z-index: 50;
 }
 
+
+/* homepage */
+.homepage .strategy .tile {
+  width:31%; /* 3 tiles in grid */
+  margin-bottom:2em;
+  margin-right:1%;
+}
+
+.homepage .about .last {
+  width:31%; /* 1 tile of strategy */
+  margin-bottom:2em;
+  margin-right:1%;
+}
+.homepage .about .first {
+  width:64%; /* 2 tiles of strategy */
+  margin-bottom:2em;
+  margin-right:1%;
+}

@@ -9,8 +9,7 @@ body {
 /* our base tile takes up the whole display */
 .tile {
   float:left;
-  width:98%;
-  margin:2% 1%; 
+  width:100%;
 }
 /* grid can appear multiple times in the display 
  * each grid ensures that new tiles inside it begin on a new
@@ -21,7 +20,6 @@ body {
 
 /* our base grid tile*/
 .grid .tile {
-  margin:1em;
 }
 
 /* optionally a grid tile can have a  leader - an image or another block element

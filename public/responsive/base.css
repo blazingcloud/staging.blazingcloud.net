@@ -1,3 +1,6 @@
+.debug {
+background:green;
+}
 body {
   background: url('/images/textures/wheat.png');
   color:rgb(50,50,50);
@@ -19,6 +22,10 @@ body footer > section {
   margin: 0 auto;
   width:100%;
   position:relative;
+}
+.main {
+  padding-left:5%;
+  padding-right:5%;
 }
 
 /*  responsive content */
@@ -153,9 +160,6 @@ footer {
   width:14em;
 }
 
-.debug {
-background:green;
-}
 /* blog */
 .blog .tile {
   width:100%;
