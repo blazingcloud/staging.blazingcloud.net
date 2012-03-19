@@ -4,7 +4,9 @@
   margin-right:0.5%;
 
 }
-
+footer {
+  margin-top:5em;
+}
 .debug {
   background:#CCC;
 }
@@ -28,7 +30,9 @@ nav li {
 .logo {
   background-position: 0 0;
 }
-
+.underline {
+  top:2px;
+}
 .bottom-logo {
   background:url('/images/services/services_footer_logo.png') no-repeat;
   width:20em;

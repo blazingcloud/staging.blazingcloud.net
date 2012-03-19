@@ -30,6 +30,9 @@ body .main {
   position:relative;
 }
 
+body section {
+  margin-bottom:2em;
+}
 /*  responsive content */
 
 /* these responsive images are using a very primative technique
@@ -151,8 +154,11 @@ header .introduction {
 
 .underline {
   clear:both;
-  border-bottom: 1px solid rgb(221,219,212);
+  border-bottom: 1px solid rgb(252,250,246);
+  margin-top:2em;
   width:100%;
+  position:relative;
+  top:9px;
 }
 footer {
   color:rgb(250,250,250);
@@ -160,7 +166,7 @@ footer {
   clear:both;
   min-height:19em;
   background: url('/images/textures/stone.png');
-  margin-top:10em;
+  margin-top:13em;
 }
 
 /*
@@ -217,6 +223,8 @@ footer {
 .homepage .about a {
  font-family: PTSansNarrowBold;
  font-size: 1.2em;
-
+}
+.homepage .community .leader {
+  margin-bottom:6em; /*hack to prevent word wrap */
 }
 
