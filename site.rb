@@ -5,7 +5,7 @@ class Site < Sinatra::Base
     erb(:homepage)
   end
   get '/service' do
-    erb(:service)
+    redirect to('/services')
   end
   get '/services' do
     erb(:services)

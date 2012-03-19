@@ -29,21 +29,23 @@ nav li {
   width:19em; /* 3 tiles in grid */
   margin-bottom:2em;
 }
-.brand-texture {
-  background:url('/images/branding/texture.png') repeat scroll top left;
+
+.brand-solid-texture {
+  background:url('/images/branding/texture.png') repeat center center transparent;
+  height:400px;
   position:absolute;
-  width:100%;
+  position:absolute;
   top:91px;
-  left:0px;
-  height:205px;
+  width:inherit;
 }
 
 .branding .cutout {
-  background:url('/images/branding/cutout.png') no-repeat scroll top left;
-  position:absolute;
-  width:100%;
-  top:24px;
-  left:58px;
-  height:335px;
+  background: url("/images/branding/texture.png") repeat scroll left top transparent;
+  height: 70px;
+  left: 61px;
+  position: absolute;
+  top: 0;
+  width: 226px;
+  z-index: 50;
 }
 

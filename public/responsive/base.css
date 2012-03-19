@@ -2,6 +2,7 @@ body {
   background: url('/images/textures/wheat.png');
   color:rgb(50,50,50);
   font-family:sans-serif;
+  min-width:20em;
 }
 a { color: rgb(226,143,86); font-weight:bold;}
 a:hover  { color: rgb(226,143,86); }
@@ -31,8 +32,10 @@ body footer > section {
  */
 .logo {
   background:url('/images/logo/with-shadow.png') no-repeat 0 0;
-  width:20em;
-  height:118px;
+  width:349px;
+  height:71px;
+  z-index:1000;
+  position:relative;
 }
 .bottom-logo {
   background-image:url('/images/logo/only-shadow.png');
@@ -49,16 +52,36 @@ body footer > section {
 .branding .pitch {
   font-size:2em;
   color:black;
+  margin-top:1.5em;
   text-shadow: 1px 1px 1px #fff;
 }
 .branding .mobiles {
   background-position: center center;
-  background-image:url('/images/branding/mobiles-320.png');
+  background-image:url('/images/branding/mobiles-1-320.png');
   background-repeat:no-repeat;
-  height: 10em;
+  height: 9em;
 }
 /* end responsive content */
 
+/* fonts */
+body {
+  font-family: BitterRegular, sans-serif;
+  font-size:1em;
+  line-height:1.5em;
+}
+
+.title {
+  display:block;
+  font-family: PTSansNarrowBold;
+  font-size:1.8em;
+}
+code, pre {
+  font-family:courier;
+}
+/* layout */
+article, p {
+  margin-top:1em;
+}
 nav {
   margin:0 auto;
   padding-left:1em;
@@ -74,21 +97,6 @@ nav li a {
   text-decoration:none;
   text-transform:uppercase;
 }
-.title {
-  display:block;
-  font-family: pt-sans-narrow-bold;
-  font-size:1.8em;
-}
-article, p {
-  font-size:1em;
-  line-height:1.5em;
-  margin-top:1em;
-  font-family: bitter;
-}
-code, pre {
-  font-family:courier;
-}
-
 header .introduction {
   clear:both;
   margin-bottom:1em;

@@ -1,8 +1,11 @@
 .debug {
 background:blue;
 }
-.branding .mobiles {
-  background-image:url('/images/branding/mobiles-480.png');
-  height: 15em;
+.branding {
+  height:24em;
 }
 
+.branding .mobiles {
+  background-image:url('/images/branding/mobiles-1-480.png');
+  height:16em;
+}

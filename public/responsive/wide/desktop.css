@@ -1,12 +1,7 @@
 .brand-solid-texture {
-  background:url('/images/branding/texture.png') repeat center center transparent;
   height:497px;
-  position:absolute;
-  position:absolute;
-  top:91px;
-  width:inherit;
 }
-.brand-cloud-texture {
+.brand-disabled-cloud-texture {
   background:url('/images/branding/clouds.png') no-repeat center center transparent;
   height:497px;
   position:absolute;
@@ -18,7 +13,7 @@
 }
 
 .branding .mobiles {
-  background-image:url('/images/branding/mobiles-full.png');
+  background-image:url('/images/branding/mobiles-1-full.png');
   height: 400px;
 }
 
