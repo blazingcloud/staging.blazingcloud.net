@@ -150,7 +150,10 @@ header .introduction {
 
 .underline {
   clear:both;
-  border-bottom: 1px solid rgb(252,250,246);
+  border:0;
+  border-top-width: 1px ;
+  border-top-style:solid; 
+  border-top-color:#eaeaea;
   width:100%;
   position:relative;
   top:9px;
