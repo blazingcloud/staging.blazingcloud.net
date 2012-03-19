@@ -6,7 +6,7 @@ body {
 }
 a { color: rgb(226,143,86); font-weight:bold;}
 a:hover  { color: rgb(226,143,86); }
-a.active { color: rgb(124,63,9); }	
+a.active { color: rgb(124,63,9); text-decoration:underline; }	
 
 /* 
  * these elements are certain to be nested under body 
