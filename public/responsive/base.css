@@ -4,7 +4,6 @@ background:green;
 body {
   background: url('/images/textures/wheat.png');
   color:rgb(50,50,50);
-  font-family:sans-serif;
   min-width:20em;
 }
 a { color: rgb(226,143,86); font-weight:bold;}
@@ -76,7 +75,7 @@ body .main {
 /* fonts */
 body {
   font-family: BitterRegular, sans-serif;
-  font-size:1em;
+  font-size:14px;
   line-height:1.5em;
 }
 
