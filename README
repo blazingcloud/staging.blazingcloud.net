@@ -1,2 +1,10 @@
-http://la-nube-blog.herokuapp.com
+
+hosted at:
+
+    http://blazingcloud.heroku.com
+
+to run it locally:
+
+    bundle
+    unicorn
 
