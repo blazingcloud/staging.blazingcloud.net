@@ -6,5 +6,5 @@ hosted at:
 to run it locally:
 
     bundle
-    unicorn
+    foreman start
 
