@@ -7,21 +7,23 @@
     <div class='logo' 
       alt='blazing cloud'>
     </div>
+    <%= erb :nav, :locals => {:active => 'home' } %>
     <div class='cutout'>
     </div>
-     <center class='pitch title'> We handcraft mobile experiences.</center>
+    <center class='pitch title'> 
+      We handcraft mobile experiences.
+    </center>
     <div class='mobiles'>
     </div>
   </div>
-  <%= erb :nav, :locals => {:active => 'home' } %>
-</header>
+  </header>
   <section class='homepage main grid'>
     <section class='about'>
     <article class='tile first'>
     <p>
         <em class='title'>Blazing Cloud</em> 
-        is a <i>design, strategy, </i> and
-        <i>development</i>
+        is a design, strategy, and
+        development
         studio specializing
         in mobile product development.
         </p>

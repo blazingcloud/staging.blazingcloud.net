@@ -1,10 +1,25 @@
 .debug {
-background:#181818;
+  background:#181818;
 }
+
 nav {
   width:20em;
   margin:0 auto;
 }
+
 .services .tile .leader {
-margin-bottom: 3em; /* hack to make the image longer so the text doesn't wrap */
+  margin-bottom: 3em; /* hack to make the image longer so the text doesn't wrap */
+}
+
+nav.cloud {
+  height: 20px;
+  margin: 0 auto;
+  width: 171px; /* this value will need to be changed for more words in the nav */
+  margin-top:1em;
+}
+
+/* less space on the small layout so the nav is snuggled close */
+.branding .pitch {
+
+  margin:0;
 }

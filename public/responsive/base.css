@@ -6,7 +6,7 @@ body {
   color:rgb(50,50,50);
   min-width:20em;
 }
-a { color: rgb(226,143,86); font-weight:bold;}
+a { color: rgb(226,143,86);}
 a:hover  { color: rgb(226,143,86); }
 a.active { color: rgb(124,63,9); text-decoration:underline; }	
 
@@ -54,10 +54,18 @@ body .main {
   width:inherit;
   height:72px;
 }
+.brand-solid-texture {
+  background:url('/images/branding/texture.png') repeat center center transparent;
+  height:17em;
+  position:absolute;
+  position:absolute;
+  top:9em;
+  width:inherit;
+}
 .branding {
   position:relative;
   overflow:hidden;
-  height: 24em;
+  height: 26em;
   width:inherit;
 }
 .branding .pitch {
@@ -114,7 +122,7 @@ audio, video {
 .title {
   font-family: PTSansNarrowBold;
   display:block;
-  font-size:1.8em;
+  font-size:1.7em;
 }
 
 code, pre {
@@ -135,7 +143,9 @@ nav li {
   margin-right:1em;
 }
 nav li a {
-  font-size:0.8em;
+  font-size:1.14em;
+  font-family: PTSansNarrowBold;
+
   text-decoration:none;
   text-transform:uppercase;
 }
@@ -217,13 +227,13 @@ footer {
 /* homepage */
 .homepage .about .title {
   display:inline;
-  font-size:1.2em;
 }
-.homepage .about article {
- font-size: 1.2em;
+.homepage .about article * {
+ font-size: 1.28em; /* 18px / 14 */
 }
 .homepage .about a {
  font-family: PTSansNarrowBold;
- font-size: 1.2em;
+ font-size: 1.28em;
+ text-decoration:none;
 }
 
