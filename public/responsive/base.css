@@ -137,6 +137,7 @@ nav {
   padding-left:1em;
   padding-right:1em;
   padding-bottom:3em;
+  z-index:9999;
 }
 nav li {
   float:left;
