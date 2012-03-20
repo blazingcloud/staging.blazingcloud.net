@@ -1,6 +1,9 @@
 # encoding: UTF-8
 require 'sinatra/base'
 class Site < Sinatra::Base
+  before '*' do
+    @title = "Blazing Cloud | Mobile Product Development"
+  end
   get '/' do
     erb(:homepage)
   end
