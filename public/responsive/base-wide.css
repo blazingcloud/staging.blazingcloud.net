@@ -49,6 +49,9 @@ nav li {
   top:0px;
   width:inherit;
 }
+.branding {
+  height:574px;
+}
 
 .brand-solid-texture {
   background:url('/images/branding/texture.png') repeat center center transparent;
