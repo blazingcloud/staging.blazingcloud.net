@@ -26,10 +26,9 @@ nav li {
 .bottom .tile {
   width:10em;
 }
-
+/* turn off logo on wide as we use brand-cloud-logo */
 .logo {
-  background-position: 0 0;
-  width:400px;
+  background:0;
 }
 .underline {
   top:2px;
@@ -41,6 +40,16 @@ nav li {
 }
 
 /* .branding */
+.brand-cloud-logo {
+  background-image:url('/images/logo/with-background.png') ;
+  background-repeat: no-repeat ;
+  background-position:37.5% 0 ;
+  height:574px;
+  position:absolute;
+  top:0px;
+  width:inherit;
+}
+
 .brand-solid-texture {
   background:url('/images/branding/texture.png') repeat center center transparent;
   height:419px;
