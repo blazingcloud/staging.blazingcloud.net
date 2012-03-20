@@ -5,6 +5,10 @@ require 'httparty'
 require 'ostruct'
 require 'stringio'
 class Blog < Sinatra::Base
+  before '*' do
+    @title = "Blazing Cloud | Blog"
+  end
+
   get '/' do
     articles = StringIO.new
     HTTParty.get('http://blazingcloud.net/feed/json').each do |article|

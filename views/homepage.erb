@@ -13,13 +13,7 @@
     <div class='mobiles'>
     </div>
   </div>
-  <nav>
-  <ol>
-    <li><a class='active' href='/'>Home</a></li>
-    <li><a href='/services'>Services</a></li>
-    <li><a href='/blog'>Blog    </a></li>
-  </ol>
-  </nav>
+  <%= erb :nav, :locals => {:active => 'home' } %>
 </header>
   <section class='homepage main grid'>
     <section class='about'>
