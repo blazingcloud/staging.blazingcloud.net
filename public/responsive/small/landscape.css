@@ -4,6 +4,9 @@ background:blue;
 .branding {
   height:27em;
 }
+.brand-solid-texture {
+  height:19em;
+}
 .branding .mobiles {
   background-image:url('/images/branding/mobiles-1-480.png');
   height:13em;
