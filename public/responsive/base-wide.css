@@ -27,7 +27,7 @@ nav li {
   width:10em;
 }
 /* turn off logo on wide as we use brand-cloud-logo */
-.homepage .logo {
+.home .logo {
   background:0;
 }
 .logo {
@@ -76,25 +76,25 @@ nav li {
 }
 
 
-/* homepage */
-.homepage .strategy .tile {
+/* home */
+.home .strategy .tile {
   width:31%; /* 3 tiles in grid */
   margin-bottom:2em;
   margin-right:1%;
 }
 
-.homepage .about .last {
+.home .about .last {
   width:31%; /* 1 tile of strategy */
   margin-bottom:2em;
   margin-right:1%;
 }
-.homepage .about .first {
+.home .about .first {
   width:64%; /* 2 tiles of strategy */
   margin-bottom:2em;
   margin-right:1%;
 }
 
-.homepage .community .leader {
+.home .community .leader {
   float:left;
   margin-right:1em;
 }

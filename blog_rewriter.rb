@@ -10,6 +10,7 @@ class BlogRewriter < Sinatra::Base
   end
 
   get '/' do
+    @pagename = 'blog'
     articles = StringIO.new
     HTTParty.get('http://blog.blazingcloud.net/feed/json').each do |article|
       articles << erb(:article, :locals => {:article => OpenStruct.new(article)},:layout => false)

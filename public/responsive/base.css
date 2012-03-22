@@ -225,14 +225,14 @@ footer {
   float:left; /* content will flow around this  */
 }
 
-/* homepage */
-.homepage .about .title {
+/* home */
+.home .about .title {
   display:inline;
 }
-.homepage .about article * {
+.home .about article * {
  font-size: 1.28em; /* 18px / 14 */
 }
-.homepage .about a {
+.home .about a {
  font-family: PTSansNarrowBold;
  font-size: 1.28em;
  text-decoration:none;

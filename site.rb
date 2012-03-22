@@ -5,12 +5,14 @@ class Site < Sinatra::Base
     @title = "Blazing Cloud | Mobile Product Development"
   end
   get '/' do
+    @pagename = 'home'
     erb(:homepage)
   end
   get '/service' do
     redirect to('/services')
   end
   get '/services' do
+    @pagename = 'services'
     erb(:services)
   end
 end

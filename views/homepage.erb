@@ -2,20 +2,24 @@
 </div>
 <div class='brand-cloud-logo'>
 </div>
-<header class='homepage' >
+
+<header>
   <div class='branding'>
+    <a href='/'>
     <div class='logo' 
       alt='blazing cloud'>
     </div>
-    <%= erb :nav, :locals => {:active => 'home' } %>
+    </a>
+    <%= erb :nav, :locals => {:active => @pagename } %>
     <center class='pitch title'> 
       We handcraft mobile experiences.
     </center>
-<div class='mobiles'>
-</div>
+    <div class='mobiles'>
+    </div>
   </div>
-  </header>
-  <section class='homepage main grid'>
+</header>
+
+  <section class='main grid'>
     <section class='about'>
     <article class='tile first'>
     <p>
@@ -67,7 +71,7 @@
       <section class='grid community '>
         <article class='tile'>
         <em class='title'>Blazing Cloud Training</em>
-        <img class='leader' src="/images/homepage/training.png" alt='blazing cloud training'/>
+        <img class='leader' src="/images/home/training.png" alt='blazing cloud training'/>
         <p>
           Our <a href="http://blazingcloud.eventbrite.com/">innovative classes</a> are geared toward
           programmers of all levels. We are firm believers in paying it forward.
@@ -86,7 +90,7 @@
         </article>
         <article class='tile'>
           <em class='title'>Talks</em>
-          <img class='leader' src="/images/homepage/talks.png" alt='blazing cloud talks'/>
+          <img class='leader' src="/images/home/talks.png" alt='blazing cloud talks'/>
           <p>
             We are often invited to speak at various events in the bay area and elsewhere.
             If you'd like to have us speak at your event,
