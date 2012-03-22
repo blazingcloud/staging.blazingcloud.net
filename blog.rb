@@ -11,7 +11,7 @@ class Blog < Sinatra::Base
 
   get '/' do
     articles = StringIO.new
-    HTTParty.get('http://blazingcloud.net/feed/json').each do |article|
+    HTTParty.get('http://blog.blazingcloud.net/feed/json').each do |article|
       articles << erb(:article, :locals => {:article => OpenStruct.new(article)},:layout => false)
     end
     erb(:blog, :locals => {:articles => articles.string})

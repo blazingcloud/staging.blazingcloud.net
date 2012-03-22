@@ -27,7 +27,7 @@ nav li {
   width:10em;
 }
 /* turn off logo on wide as we use brand-cloud-logo */
-.logo {
+.homepage .logo {
   background:0;
 }
 .underline {
