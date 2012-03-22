@@ -30,6 +30,9 @@ nav li {
 .homepage .logo {
   background:0;
 }
+.logo {
+  background-position:top left;
+}
 .underline {
   top:2px;
 }
