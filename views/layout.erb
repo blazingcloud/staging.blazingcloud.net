@@ -1,113 +1,114 @@
 <!doctype html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title><%= @title %></title>
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="fonts.css">
-  <link rel="stylesheet" href="responsive/grid.css">
-  
-  <!-- default grid - expect this to get adjusted for different devices-->
-  <link rel="stylesheet" href="responsive/grid.css">
-  <!-- default device-->
-  <link rel="stylesheet" 
-        href="responsive/base.css">
-  <!-- small devices -->
-  <link rel="stylesheet" 
-        href="responsive/base-small.css"  
-        media='screen and (min-width:20em) and (max-width:48em) ' />
-  <!-- small landscape device -->
-  <link rel="stylesheet" 
-        href="responsive/small/landscape.css"  
-        media='screen and (min-width:30em) and (max-width:48em) ' />
-  <!-- wide devices -->
-  <link rel="stylesheet" 
-        href="responsive/base-wide.css"  
-        media='screen and (min-width:48em)' />
-  <!-- wide tablet device -->
-  <link rel="stylesheet" 
-        href="responsive/wide/tablet.css"  
-        media='screen and (min-width:48em) and (max-width:64em)' />
-  <!-- wide desktop device -->
-  <link rel="stylesheet" 
-        href="responsive/wide/desktop.css" 
-        media='screen and (min-width:64em)' />
-
-</head>
-
-<body class="<%=@pagename.to_s%>">
-  <%=yield%>
-<footer>
-  <section class='bottom grid'>
-    <div class='bottom-logo' src='images/services/services_mobile_logo.png' alt='blazing cloud'/>
-      <section>
-      <!--
-  <article class='tile'>
-  <em class='title'> Services </em>
-  <ol>
-    <li>Strategy &amp; Design</li>
-    <li>Mobile Apps</li>
-    <li>Mobile Websites</li>
-    <li>Convergent Experiences</li>
-  </ol>
-  </article>
-  <article class='tile'>
-  <em class='title'> Classes </em>
-  <ol>
-    <li><time class='date'>Mar23</time>
-    <a href="#">CSS for Web Applications</a></li>
-    <li><time class='date'>May21</time>
-    <a href="#">Rails for Beginners</a></li>
-    <li><time class='date'>June 3</time>
-    <a href="#">Prosidy Chat and you</a></li>
-  </ol>
-  </article>
-  <article class='tile'>
-  <em class='title'> Blog </em>
-  <ol>
-    <li><time class='date'>On Thursday</time>
-    <a href="#">Closure and Sinatra</a></li>
-    <li><time class='date'>Last Week</time>
-    <a href="#">Closure and JQuery Dom Manipulation</a></li>
-  </ol>
+  <head>
+    <%= erb(:google_tracking) %>
+    <meta charset="utf-8">
+    <title><%= @title %></title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="responsive/grid.css">
     
-  </article>
-  -->
-  <article class='tile'>
-  <em class='title'> Contact </em>
+    <!-- default grid - expect this to get adjusted for different devices-->
+    <link rel="stylesheet" href="responsive/grid.css">
+    <!-- default device-->
+    <link rel="stylesheet" 
+          href="responsive/base.css">
+    <!-- small devices -->
+    <link rel="stylesheet" 
+          href="responsive/base-small.css"  
+          media='screen and (min-width:20em) and (max-width:48em) ' />
+    <!-- small landscape device -->
+    <link rel="stylesheet" 
+          href="responsive/small/landscape.css"  
+          media='screen and (min-width:30em) and (max-width:48em) ' />
+    <!-- wide devices -->
+    <link rel="stylesheet" 
+          href="responsive/base-wide.css"  
+          media='screen and (min-width:48em)' />
+    <!-- wide tablet device -->
+    <link rel="stylesheet" 
+          href="responsive/wide/tablet.css"  
+          media='screen and (min-width:48em) and (max-width:64em)' />
+    <!-- wide desktop device -->
+    <link rel="stylesheet" 
+          href="responsive/wide/desktop.css" 
+          media='screen and (min-width:64em)' />
+
+  </head>
+
+  <body class="<%=@pagename.to_s%>">
+    <%=yield%>
+  <footer>
+    <section class='bottom grid'>
+      <div class='bottom-logo' src='images/services/services_mobile_logo.png' alt='blazing cloud'/>
+        <section>
+        <!--
+    <article class='tile'>
+    <em class='title'> Services </em>
     <ol>
-      <li>
-      <abbr> E </abbr> info@blazingcloud.net
-      </li>
-      <li>
-      <abbr> P </abbr> (415) 800 8085
-      </li>
-      <li>
-      <abbr> F </abbr> (415) 738 5407
-      </li>
+      <li>Strategy &amp; Design</li>
+      <li>Mobile Apps</li>
+      <li>Mobile Websites</li>
+      <li>Convergent Experiences</li>
     </ol>
     </article>
-    <!--
-  <article class='tile'>
-  <em class='title'> Twitter </em>
-    <time>On Friday</time>
-    <p>
-      @mebukar there's a link on the eventbrite page,
-but it is small &dash;&dash;&gt; blazing cloud scholarship application
-http://t.co/330yW1Pe
-    </p>
-    <a  href="#">Follow us</a> 
+    <article class='tile'>
+    <em class='title'> Classes </em>
+    <ol>
+      <li><time class='date'>Mar23</time>
+      <a href="#">CSS for Web Applications</a></li>
+      <li><time class='date'>May21</time>
+      <a href="#">Rails for Beginners</a></li>
+      <li><time class='date'>June 3</time>
+      <a href="#">Prosidy Chat and you</a></li>
+    </ol>
     </article>
-    --> 
-  </section>
-  </section>
-</footer>
+    <article class='tile'>
+    <em class='title'> Blog </em>
+    <ol>
+      <li><time class='date'>On Thursday</time>
+      <a href="#">Closure and Sinatra</a></li>
+      <li><time class='date'>Last Week</time>
+      <a href="#">Closure and JQuery Dom Manipulation</a></li>
+    </ol>
+      
+    </article>
+    -->
+    <article class='tile'>
+    <em class='title'> Contact </em>
+      <ol>
+        <li>
+        E info@blazingcloud.net
+        </li>
+        <li>
+        P (415) 800 8085
+        </li>
+        <li>
+        F (415) 738 5407
+        </li>
+      </ol>
+      </article>
+      <!--
+    <article class='tile'>
+    <em class='title'> Twitter </em>
+      <time>On Friday</time>
+      <p>
+        @mebukar there's a link on the eventbrite page,
+  but it is small &dash;&dash;&gt; blazing cloud scholarship application
+  http://t.co/330yW1Pe
+      </p>
+      <a  href="#">Follow us</a> 
+      </article>
+      --> 
+    </section>
+    </section>
+  </footer>
 
 
-</body>
+  </body>
 </html>
 
 
