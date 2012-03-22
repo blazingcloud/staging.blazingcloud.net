@@ -14,6 +14,12 @@ map '/' do
 end
 
 map '/' do
+  run Redirect.new
+end
+
+map '/' do
   run Site.new
 end
+
+
 
