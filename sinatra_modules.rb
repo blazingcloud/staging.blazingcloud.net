@@ -1,5 +1,5 @@
 # app.rb
-require './blog'
+require './blog_rewriter'
 require './assets'
 require './site'
 

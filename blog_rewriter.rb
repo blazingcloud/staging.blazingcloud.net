@@ -1,10 +1,10 @@
 # encoding: UTF-8
-# blog.rb
+# blog_rewriter.rb
 require 'sinatra/base'
 require 'httparty'
 require 'ostruct'
 require 'stringio'
-class Blog < Sinatra::Base
+class BlogRewriter < Sinatra::Base
   before '*' do
     @title = "Blazing Cloud | Blog"
   end

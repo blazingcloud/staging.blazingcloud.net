@@ -1,6 +1,12 @@
 require './sinatra_modules'
+map '/short-read' do
+  run BlogRewriter.new
+end
+
 map '/blog' do
-  run Blog.new
+   run   lambda { |env|
+      [301, {'Content-Type'=>'text/plain','Location' => 'http://blog.blazingcloud.net'}, ['moved']] 
+    }
 end
 
 map '/' do
