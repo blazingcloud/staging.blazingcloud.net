@@ -15,4 +15,10 @@ class Site < Sinatra::Base
     @pagename = 'services'
     erb(:services)
   end
+  get '/*' do
+    path = params[:splat].join
+    redirect "http://blog.blazingcloud.net/#{path}", "you found our blog!"
+  end
 end
+
+
