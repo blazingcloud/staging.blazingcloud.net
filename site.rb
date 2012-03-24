@@ -1,6 +1,15 @@
 # encoding: UTF-8
 require 'sinatra/base'
 class Site < Sinatra::Base
+  def rewrite_if_www
+    if request.host =~ %r(^www\.)
+      new_host = request.host_with_port.sub(/^www\./,'')
+      redirect "#{request.scheme}://#{new_host}#{request.path}"
+    end
+  end
+  before '*' do
+    rewrite_if_www
+  end  
   before '*' do
     @title = "Blazing Cloud | Mobile Product Development"
   end

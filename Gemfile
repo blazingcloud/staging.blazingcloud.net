@@ -5,3 +5,7 @@ gem 'httparty'
 gem 'foreman'
 gem 'heroku'
 gem 'unicorn'
+group :development,:test do
+  gem 'rspec'
+  gem 'rack-test'
+end
