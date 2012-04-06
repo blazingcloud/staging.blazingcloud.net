@@ -46,6 +46,12 @@ describe Site do
       last_response.headers['Location'].should match('/services')
     end
   end
+  context "get /blog" do
+    it "redirects to http://blog.blazingcloud.net" do
+      get '/blog'
+      last_response.headers['Location'].should == %%http://blog.blazingcloud.net%
+    end
+  end
   context "get /*" do
     %w(
       /123/moo/cat
