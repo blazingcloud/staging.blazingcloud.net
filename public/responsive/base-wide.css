@@ -11,14 +11,14 @@ footer {
   background:#CCC;
 }
 
-nav {
+nav.cloud {
   position:absolute;
   right:0em;
   top:1em;
   margin: inherit;
 }
 
-nav li {
+nav.cloud li {
   float:left;
   margin-right:1em;
 }

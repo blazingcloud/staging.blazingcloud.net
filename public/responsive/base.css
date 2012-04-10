@@ -132,18 +132,18 @@ code, pre {
 article, p {
   margin-top:1em;
 }
-nav {
+nav.cloud {
   margin:0 auto;
   padding-left:1em;
   padding-right:1em;
   padding-bottom:3em;
   z-index:9999;
 }
-nav li {
+nav.cloud li {
   float:left;
   margin-right:1em;
 }
-nav li a {
+nav.cloud li a {
   font-size:1.14em;
   font-family: PTSansNarrowBold;
 
