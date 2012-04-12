@@ -1,25 +1,27 @@
-.debug {
-  background:#181818;
-}
+@media  screen and (min-width:20em) and (max-width:48em) {
+  .debug {
+    background:#181818;
+  }
 
-nav.cloud {
-  width:20em;
-  margin:0 auto;
-}
+  nav.cloud {
+    width:20em;
+    margin:0 auto;
+  }
 
-.services .tile .leader {
-  margin-bottom: 3em; /* hack to make the image longer so the text doesn't wrap */
-}
+  .services .tile .leader {
+    margin-bottom: 3em; /* hack to make the image longer so the text doesn't wrap */
+  }
 
-nav.cloud {
-  height: 20px;
-  margin: 0 auto;
-  width: 171px; /* this value will need to be changed for more words in the nav */
-  margin-top:1em;
-}
+  nav.cloud {
+    height: 20px;
+    margin: 0 auto;
+    width: 171px; /* this value will need to be changed for more words in the nav */
+    margin-top:1em;
+  }
 
-/* less space on the small layout so the nav is snuggled close */
-.branding .pitch {
+  /* less space on the small layout so the nav is snuggled close */
+  .branding .pitch {
 
-  margin:0;
+    margin:0;
+  }
 }

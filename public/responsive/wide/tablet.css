@@ -1,15 +1,16 @@
-.debug {
-  background:magenta;
-}
+@media screen and (min-width:48em) and (max-width:64em) {
+  .debug {
+    background:magenta;
+  }
 
-.branding .mobiles {
-  background-image:url('/images/branding/mobiles-728.png');
-  height:20em;
+  .branding .mobiles {
+    background-image:url('/images/branding/mobiles-728.png');
+    height:20em;
+  }
+  .branding {
+    height:500px;
+  }
+  .brand-cloud-logo {
+    height:500px;
+  }
 }
-.branding {
-  height:500px;
-}
-.brand-cloud-logo {
-  height:500px;
-}
-

@@ -1,33 +1,36 @@
-.brand-solid-texture {
-  height:497px;
-}
-.brand-disabled-cloud-texture {
-  background:url('/images/branding/clouds.png') no-repeat center center transparent;
-  height:497px;
-  position:absolute;
-  top:91px;
-  width:inherit;
-}
-.branding {
-  height:560px;
-}
+@media screen and (min-width:64em) {
 
-.branding .mobiles {
-  background-image:url('/images/branding/mobiles-full.png');
-  height: 400px;
-}
+  .brand-solid-texture {
+    height:497px;
+  }
+  .brand-disabled-cloud-texture {
+    background:url('/images/branding/clouds.png') no-repeat center center transparent;
+    height:497px;
+    position:absolute;
+    top:91px;
+    width:inherit;
+  }
+  .branding {
+    height:560px;
+  }
 
-header,.main, footer section{
-  min-width:64em;
-  max-width:64em;
-}
-footer {
-  min-width:100%;
-  max-width:100%;
-  margin-left:auto;
-  margin-right:auto;
-}
+  .branding .mobiles {
+    background-image:url('/images/branding/mobiles-full.png');
+    height: 400px;
+  }
 
-.debug {
-background:yellow;
+  .main, footer section{
+    min-width:64em;
+    max-width:64em;
+  }
+  footer {
+    min-width:100%;
+    max-width:100%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .debug {
+    background:yellow;
+  }
 }
