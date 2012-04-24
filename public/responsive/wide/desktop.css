@@ -1,36 +1,33 @@
-@media screen and (min-width:64em) {
+.brand-solid-texture {
+  height:497px;
+}
+.brand-disabled-cloud-texture {
+  background:url('/images/branding/clouds.png') no-repeat center center transparent;
+  height:497px;
+  position:absolute;
+  top:91px;
+  width:inherit;
+}
+.branding {
+  height:560px;
+}
 
-  .brand-solid-texture {
-    height:497px;
-  }
-  .brand-disabled-cloud-texture {
-    background:url('/images/branding/clouds.png') no-repeat center center transparent;
-    height:497px;
-    position:absolute;
-    top:91px;
-    width:inherit;
-  }
-  .branding {
-    height:560px;
-  }
+.branding .mobiles {
+  background-image:url('/images/branding/mobiles-full.png');
+  height: 400px;
+}
 
-  .branding .mobiles {
-    background-image:url('/images/branding/mobiles-full.png');
-    height: 400px;
-  }
+header,.main, footer section{
+  min-width:64em;
+  max-width:64em;
+}
+footer {
+  min-width:100%;
+  max-width:100%;
+  margin-left:auto;
+  margin-right:auto;
+}
 
-  .main, footer section{
-    min-width:64em;
-    max-width:64em;
-  }
-  footer {
-    min-width:100%;
-    max-width:100%;
-    margin-left:auto;
-    margin-right:auto;
-  }
-
-  .debug {
-    background:yellow;
-  }
+.debug {
+background:yellow;
 }
