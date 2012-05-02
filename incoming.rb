@@ -8,7 +8,7 @@ class Incoming < Sinatra::Base
   def send_deploy_messages(*things)
     account_sid = ENV['DEPLOY_TWILIO_ACCOUNTSID']
     auth_token  = ENV['DEPLOY_TWILIO_AUTHTOKEN']
-    from_phone  = ENV['DEPOLY_TWILIO_FROM_PHONE'] # JUDY's TWILO Internal Number 
+    from_phone  = ENV['DEPLOY_TWILIO_FROM_PHONE'] # JUDY's TWILO Internal Number 
     @client ||= Twilio::REST::Client.new(account_sid,auth_token)
     to_numbers.each do |to_number|
       @client.account.sms.messages.create(
