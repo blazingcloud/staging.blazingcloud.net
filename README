@@ -11,7 +11,7 @@ to run it locally:
 # we added an endpoint to post to for each deploy
 10092  heroku addons:add deployhooks:http  url=http://blazingcloud.net/incoming/deploy/heroku --remote heroku
 # Incoming deploy hooks from other sites require 
-# these envs to send a message -- 
+# these envs to send a message
 
 10093  heroku config:add DEPLOY_TWILIO_ACCOUNTSID=__ACCOUNT_SID
 10095  heroku config:add DEPLOY_TWILIO_AUTHTOKEN=___TOKEN
