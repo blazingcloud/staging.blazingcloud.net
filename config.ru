@@ -18,4 +18,7 @@ map '/' do
   run Site.new
 end
 
+map '/incoming' do
+  run Incoming.new
+end
 
