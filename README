@@ -8,7 +8,9 @@ to run it locally:
     bundle
     foreman start
 
+--
+deploy hook added
 
-
-
+heroku addons:add deployhooks:http  url=http://choki-gobbler.heroku.com/incoming/deploy/heroku --remote heroku
+--
 note: http://blog.blazingcloud.net is hosted at Media Temple and is implemented in WordPress
