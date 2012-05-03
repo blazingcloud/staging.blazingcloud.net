@@ -11,6 +11,6 @@ to run it locally:
 --
 deploy hook added
 
-heroku addons:add deployhooks:http  url=http://choki-gobbler.heroku.com/incoming/deploy/heroku --remote heroku
+heroku addons:add deployhooks:http  url=http://choki-gobbler.herokuapp.com/incoming/deploy/heroku --remote heroku
 --
 note: http://blog.blazingcloud.net is hosted at Media Temple and is implemented in WordPress
