@@ -25,9 +25,15 @@ nav.cloud li {
 }
 
 .bottom .tile {
-  display: inline;
   width: 60%;
 }
+
+@media screen and (min-width: 1000px) {
+  .bottom .tile * {
+    display: inline;
+  }  
+}
+
 /* turn off logo on wide as we use brand-cloud-logo */
 .home .logo {
   background:0;
