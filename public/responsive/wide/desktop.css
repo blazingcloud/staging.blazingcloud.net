@@ -14,12 +14,13 @@
 
 .branding .mobiles {
   background-image:url('/images/branding/mobiles-full.png');
-  height: 400px;
+  height: 388px;
+  width: 1010px;
 }
 
 header,.main, footer section{
-  min-width:64em;
-  max-width:64em;
+  min-width:1024px;
+  max-width:1024px;
 }
 footer {
   min-width:100%;

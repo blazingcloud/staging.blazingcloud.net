@@ -1,8 +1,7 @@
-  <header>
-  <div class='logo' 
-    alt='blazing cloud'></div>
-  <%= erb :nav, :locals => {:active => 'blog' } %>
-  </header>
+<header>
+  <div class='logo' alt='blazing cloud'></div>
+  <%= erb :nav, :locals => { :active => 'blog' } %>
+</header>
 <section class='main blog'>
   <%=articles%>
 </section>

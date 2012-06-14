@@ -69,9 +69,9 @@ body .main {
   width:inherit;
 }
 .branding .pitch {
-  font-size:2em;
+  font-size:35.5px;
   color:black;
-  margin-top:1.5em;
+  margin-top:44px;
   text-shadow: 1px 1px 1px #fff;
 }
 .branding .mobiles {
@@ -115,14 +115,14 @@ header, hgroup, menu, nav, output,
 ruby, section, summary, time, mark, 
 audio, video {
   font-family: BitterRegular, sans-serif;
-  font-size:14px;
+  font-size:13px;
   line-height:1.5em;
 }
 
 .title {
   font-family: PTSansNarrowBold;
   display:block;
-  font-size:1.7em;
+  font-size:23px;
 }
 
 code, pre {
@@ -134,9 +134,9 @@ article, p {
 }
 nav.cloud {
   margin:0 auto;
-  padding-left:1em;
-  padding-right:1em;
-  padding-bottom:3em;
+  padding-left:16px;
+  padding-right:20px;
+  padding-bottom:25px;
   z-index:9999;
 }
 nav.cloud li {
@@ -165,7 +165,7 @@ header .introduction {
   border-top-width: 1px ;
   border-top-style:solid; 
   border-top-color:#eaeaea;
-  width:100%;
+  width:98%;
   position:relative;
   top:9px;
 }
@@ -185,8 +185,7 @@ footer {
  *
  */
 .bottom section{
-  position:absolute;
-  top:7em;
+
 }
 
 .bottom .tile > a {
@@ -196,14 +195,15 @@ footer {
 
   text-transform:uppercase;
   color:rgb(206,122,45)	;
-  margin-bottom:1em;
-  font-size:1em;
+  margin-right: 12px;
+  font-size: 16px;
 }
 .bottom .tile  * {
-  font-size:0.9em;
+  display: inline;
+  font-size:13px;
 }
 .bottom .tile li {
-  margin:0.5em 0;
+  margin: 8px;
 }
 .bottom .tile a,footer .tile time {
   display:block;
@@ -236,5 +236,27 @@ footer {
  font-family: PTSansNarrowBold;
  font-size: 1.28em;
  text-decoration:none;
+}
+
+.community .tile {
+  height: 219px;
+  padding-top: 1.4%;
+}
+
+.community .title {
+  margin-bottom: 2%;
+}
+
+footer section.bottom {
+  height: 376px;
+  font-weight: normal;
+}
+
+.copyright {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  margin-bottom: 21px;
 }
 

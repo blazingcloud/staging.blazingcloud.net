@@ -1,11 +1,11 @@
 .grid .tile {
-  width:49%;
-  margin-left:0.5%;
+  width:47.5%;
+  margin-left:1.5%;
   margin-right:0.5%;
 
 }
 footer {
-  margin-top:5em;
+  margin-top:67px;
 }
 .debug {
   background:#CCC;
@@ -13,9 +13,10 @@ footer {
 
 nav.cloud {
   position:absolute;
-  right:0em;
-  top:1em;
+  right:0px;
+  top:19px;
   margin: inherit;
+  letter-spacing: 1px;
 }
 
 nav.cloud li {
@@ -24,7 +25,8 @@ nav.cloud li {
 }
 
 .bottom .tile {
-  width:10em;
+  display: inline;
+  width: 500px;
 }
 /* turn off logo on wide as we use brand-cloud-logo */
 .home .logo {
@@ -38,15 +40,17 @@ nav.cloud li {
 }
 .bottom-logo {
   background:url('/images/services/services_footer_logo.png') no-repeat;
-  width:20em;
+  background-position: 16%;
+  width:320px;
   height:72px;
+  float: left;
 }
 
 /* .branding */
 .brand-cloud-logo {
   background-image:url('/images/logo/with-background.png') ;
   background-repeat: no-repeat ;
-  background-position:37.5% 0 ;
+  background-position:50% 0 ;
   height:574px;
   position:absolute;
   top:0px;
@@ -78,24 +82,39 @@ nav.cloud li {
 
 /* home */
 .home .strategy .tile {
-  width:31%; /* 3 tiles in grid */
-  margin-bottom:2em;
+  margin-top: 2.5%;
+  margin-bottom:1.5%;
   margin-right:1%;
+  width: 30.5%; /* 3 tiles in grid */
+}
+
+.home .about .tile {
+  margin-top: 24px;
 }
 
 .home .about .last {
-  width:31%; /* 1 tile of strategy */
-  margin-bottom:2em;
-  margin-right:1%;
+  width: 31%; /* 1 tile of strategy */
+  margin-bottom: 2em;
+  margin-right: 1%;
+  padding-left: 6.5%;
 }
 .home .about .first {
-  width:64%; /* 2 tiles of strategy */
+  width:57%; /* 2 tiles of strategy */
   margin-bottom:2em;
   margin-right:1%;
 }
 
 .home .community .leader {
   float:left;
-  margin-right:1em;
+  margin-right: 18px;
 }
 
+.strategy p {
+  margin-top: 3px;
+  font-size: 16px;
+}
+
+.community p {
+  margin-top: 2%;
+  font-size: 16px;  
+}
