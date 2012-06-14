@@ -26,7 +26,7 @@ nav.cloud li {
 
 .bottom .tile {
   display: inline;
-  width: 500px;
+  width: 60%;
 }
 /* turn off logo on wide as we use brand-cloud-logo */
 .home .logo {

@@ -3,13 +3,74 @@
 }
 
 .branding .mobiles {
-  background-image:url('/images/branding/mobiles-728.png');
-  height:20em;
-}
-.branding {
-  height:500px;
-}
-.brand-cloud-logo {
-  height:500px;
+  background-image:url('/images/branding/mobiles-full.png');
+  height:404px;
+  background-position: 72% 0;
 }
 
+.branding {
+  height:573px;
+}
+
+.brand-solid-texture {
+  height: 507px;
+}
+
+.brand-cloud-logo {
+  height:500px;
+  background-position: 47.5% 0;
+}
+
+nav.cloud {
+  padding-right: 1%;
+  top: 21px;
+}
+
+.branding .pitch {
+  margin-top: 46px;
+  padding-left: 4%;
+}
+
+.home .about .tile {
+  margin-top: 12px;
+  margin-bottom: 28px;
+}
+
+.home .about .first {
+  padding-left: 4px;
+}
+
+.home .about .last {
+  padding-left: 9%;
+  width: 25%;
+}
+
+.strategy p {
+  font-size: 14px;
+}
+
+.home .strategy .tile {
+  margin: 2.5% 0 1.5% 0;
+  height: 50%;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 27%;
+}
+
+.strategy .tile[position="center"] {
+  padding-left: 5%;
+  padding-right: 6%;
+}
+
+.grid .tile {
+  margin-right: 1%;
+}
+
+.community .tile[position="right"] {
+  padding-left: 16px;
+  width: 45%;
+}
+
+.bottom-logo {
+  background-position: 29%;
+}
