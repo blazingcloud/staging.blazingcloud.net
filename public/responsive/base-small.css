@@ -2,9 +2,45 @@
   background:#181818;
 }
 
+body .main {
+  padding-left: 4.5%;
+}
+
 nav.cloud {
   width:20em;
   margin:0 auto;
+}
+
+.home .logo {
+  background:0;
+  background-position:top left;
+}
+
+.underline {
+  top:2px;
+}
+
+/* .branding */
+.brand-cloud-logo {
+  background-image:url('/images/logo/with-background.png') ;
+  background-repeat: no-repeat ;
+  background-position:38% 4% ;
+  height:513px;
+  position:absolute;
+  top:0px;
+  width:inherit;
+}
+
+.branding {
+  height: 516px;
+}
+
+.branding a {
+  width: 40%;
+}
+
+.branding .pitch {
+  padding-left: 18px;
 }
 
 .services .tile .leader {
@@ -12,14 +48,94 @@ nav.cloud {
 }
 
 nav.cloud {
+  padding-right: 11px;
   height: 20px;
-  margin: 0 auto;
-  width: 171px; /* this value will need to be changed for more words in the nav */
-  margin-top:1em;
+  margin: 13px 0 auto;
+  width: 167px; /* this value will need to be changed for more words in the nav */
+  margin-top:13px;
+  position: absolute;
+  right: 1px;
+  top: 6px;
 }
 
-/* less space on the small layout so the nav is snuggled close */
-.branding .pitch {
-
-  margin:0;
+nav.cloud li {
+  margin-right: 9px;
+  margin-left: 9px;
 }
+
+.about .tile {
+  width: 45%;
+  margin-right: 0px;
+  margin-bottom: 27px;
+}
+
+.about .last {
+  padding-left: 10%;
+  
+}
+
+.strategy .tile {
+  width: 30%;
+  height: 50%;
+  margin-right: 0px;
+  margin-top: 19px;
+  margin-bottom: 21px;
+}
+
+.strategy .tile p {
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.strategy .tile[position="center"] {
+  padding-right: 25px;
+  padding-left: 18px;
+}
+
+.community .tile {
+  width: 43%;
+  margin-right: 0;
+  margin-top: 30px;
+  padding-top: 0;
+}
+
+.community .tile[position="left"] {
+  padding-right: 6%;
+}
+
+.tile .leader {
+  float: left;
+  margin-right: 6px;
+  margin-top: 6px;
+}
+
+.community p {
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+footer {
+  margin-top: 66px;
+}
+
+.bottom-logo {
+  background-image: url("/images/services/services_footer_logo.png");
+  background-position: 69% 0;
+  width: 36%;
+  float: left;
+}
+
+.bottom .tile {
+  width: 60%;
+  float: left;
+}
+
+.bottom .tile li {
+  font-size: 12px;
+  margin: 2px;
+}
+
+
+
+
+
