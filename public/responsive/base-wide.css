@@ -30,8 +30,14 @@ nav.cloud li {
 
 @media screen and (min-width: 1000px) {
   .bottom .tile * {
-    display: inline;
+    display: inline;    
   }  
+}
+
+@media screen and (max-width: 900px) {
+  .bottom .tile {
+    width: 50%;
+  }
 }
 
 /* turn off logo on wide as we use brand-cloud-logo */
