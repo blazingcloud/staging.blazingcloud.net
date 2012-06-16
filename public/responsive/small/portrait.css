@@ -1,0 +1,47 @@
+
+.home .logo{
+  background-position: 47% 0;
+  background-size: 92%;
+}
+
+nav.cloud {
+    margin: 15px 0 0 18%;
+    position: inherit;
+}
+
+.branding .pitch{
+  font-size: 35px;
+  padding: 0 10%;
+  margin-top: 44px;
+  line-height: 1;
+}
+
+.home .branding .mobiles {
+  background-image: url("/images/branding/mobiles-320.png");
+  background-size: 105%;
+  height: 165px;
+  margin: 0 0 0 4.5%;
+}
+
+body .main{
+  padding-left: 6%;
+  margin-top: 24px;
+}
+
+.home .brand-solid-texture {
+  height: 294px;
+  top: 151px;
+}
+
+.about .last {
+  margin: 9px 0 19px;
+  
+}
+
+.tile .leader {
+  float: none;
+}
+
+footer {
+  margin-top: 100px;
+}

@@ -31,6 +31,12 @@ nav.cloud {
   width:inherit;
 }
 
+@media screen and (max-width: 700px){
+  .brand-cloud-logo {
+    background-position: 35% 4%;
+  }  
+}
+
 .branding {
   height: 516px;
 }
@@ -61,6 +67,14 @@ nav.cloud {
 nav.cloud li {
   margin-right: 9px;
   margin-left: 9px;
+}
+
+.home .about article * {
+  line-height: 0;
+}
+
+.about .tile p {
+  line-height: 1.6;
 }
 
 .about .tile {
@@ -126,7 +140,8 @@ footer {
 }
 
 .bottom .tile {
-  width: 60%;
+  width: 30%;
+  margin-left: 5%;
   float: left;
 }
 
@@ -134,6 +149,99 @@ footer {
   font-size: 12px;
   margin: 2px;
 }
+
+@media screen and (max-width:600px) {
+  body .main {
+    padding-left: 7%;
+  }
+    
+  .brand-cloud-logo {
+    background: 0;
+  }
+  
+  .branding {
+    height: 467px;
+  }
+  
+  .branding a {
+    width: 100%;
+  }
+  
+  .branding .pitch {
+    margin-top: 36px;
+  }
+    
+  nav.cloud {
+    position: inherit;
+    margin: auto;
+    margin-top: 7px;
+  }
+  
+  .home .logo {
+    background-image: url("/images/logo/with-shadow.png");
+    background-position: 54% 0;
+    background-repeat: no-repeat;
+  }
+  
+  .about .tile {
+    width: 84%;
+    margin: 14px 0 0 0;
+  }
+  
+  .about .last {
+    margin: 5px 0 26px 0;
+    padding-left: 0px;
+  }
+  
+  .about article.last br{
+    display: none;
+  }
+  
+  .strategy .tile {
+    width: 85%;
+    margin: 16px 0 16px 0;
+  }
+  
+  .strategy .tile[position="center"]{
+    padding: 0;
+    margin: 13px 0 20px 0;
+  }
+  
+  .strategy .tile[position="right"]{
+    margin-bottom: 32px;
+  }
+  
+  .community p {
+    padding-top: 4px;
+  }
+  
+  .community .tile {
+    margin-top:15px;
+  }
+  
+  .tile .leader {
+    width: 66%;
+    margin-top: 3px;
+    float: none;
+  }
+  
+  .bottom-logo {
+    width: 100%;
+    background-image: url("/images/logo/only-shadow.png");
+    background-position: 53% 60%;
+  }
+  
+  .bottom .tile {
+    text-align: center;
+    width: 93%;
+  }
+  
+  footer {
+    margin-top: 172px;
+  }
+}
+
+
 
 
 

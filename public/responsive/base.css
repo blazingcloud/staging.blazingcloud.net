@@ -1,6 +1,7 @@
 .debug {
 background:green;
 }
+
 body {
   background: url('/images/textures/wheat.png');
   color:rgb(50,50,50);
@@ -21,6 +22,7 @@ body footer > section {
   width:100%;
   position:relative;
 }
+
 body .main {
   width:98%;
   margin: 0 auto;
@@ -267,4 +269,3 @@ footer section.bottom {
   text-align: center;
   margin-bottom: 21px;
 }
-
