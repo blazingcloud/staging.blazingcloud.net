@@ -7,9 +7,6 @@
 footer {
   margin-top:67px;
 }
-.debug {
-  background:#CCC;
-}
 
 nav.cloud {
   position:absolute;
@@ -40,6 +37,17 @@ nav.cloud li {
   }
 }
 
+header, .main, footer section{
+  max-width:1024px;
+}
+
+footer {
+  min-width:100%;
+  max-width:100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
 /* turn off logo on wide as we use brand-cloud-logo */
 .home .logo {
   background:0;
@@ -63,7 +71,7 @@ nav.cloud li {
   background-image:url('/images/logo/with-background.png') ;
   background-repeat: no-repeat ;
   background-position:50% 0 ;
-  height:574px;
+  height:564px;
   position:absolute;
   top:0px;
   width:inherit;
@@ -89,6 +97,19 @@ nav.cloud li {
   top: 0;
   width: 226px;
   z-index: 50;
+}
+
+.branding .mobiles {
+  background-position: center center;
+  background-image:url('/images/branding/mobiles-full.png');
+  background-repeat:no-repeat;
+  background-size: contain;
+  height: 388px;
+  width: 99%;
+}
+
+.branding {
+  height:560px;
 }
 
 

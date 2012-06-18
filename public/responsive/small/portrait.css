@@ -1,47 +1,155 @@
-
-.home .logo{
-  background-position: 47% 0;
-  background-size: 92%;
+.home .logo {
+  background-position: 58% 0;
 }
 
-nav.cloud {
-    margin: 15px 0 0 18%;
-    position: inherit;
-}
-
-.branding .pitch{
-  font-size: 35px;
-  padding: 0 10%;
-  margin-top: 44px;
-  line-height: 1;
+.branding .pitch {
+  font-size: 33.5px;
+  margin-top: 32px;
+  padding-left: 5%;
 }
 
 .home .branding .mobiles {
-  background-image: url("/images/branding/mobiles-320.png");
-  background-size: 105%;
-  height: 165px;
-  margin: 0 0 0 4.5%;
-}
-
-body .main{
-  padding-left: 6%;
-  margin-top: 24px;
+  height: 181px;
+  margin-top: 10px;
+  margin-left: 4.5%;
 }
 
 .home .brand-solid-texture {
   height: 294px;
-  top: 151px;
+  top: 125px;
+}
+
+.branding {
+  height: 406px;
 }
 
 .about .last {
-  margin: 9px 0 19px;
-  
+  margin: 0 0 37px 0;
+}
+
+section .strategy .tile {
+  margin: 21px 0 0;
+  width: 87%;
+}
+
+section .strategy .tile[position="center"] {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.strategy .tile[position="right"] {
+ margin-bottom: 19px; 
+ margin-top: 13px;
 }
 
 .tile .leader {
-  float: none;
+  float: left;
+  margin-right: 3%;
+  width: auto;
+}
+
+.community p {
+  padding-top: 0;
+}
+
+.community .tile {
+  margin-top: 19px;
+  padding: 0;
+  width: 85%;
+}
+
+.community .tile[position="right"] {
+  margin-top: 70px;
 }
 
 footer {
-  margin-top: 100px;
+  margin-top: 53px;
+}
+
+@media screen and (max-width: 450px){
+  .branding .pitch {
+    font-size: 25px;
+    margin-top: 32px;
+    padding-right: 2%;
+  }
+  
+  .community .tile {
+    margin-top: 19px;
+    padding: 0;
+    width: 90%;
+  }
+  
+  .about .tile {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  
+  .home .logo{
+    background-position: 47% 0;
+    background-size: 97%;
+  }
+
+  nav.cloud {
+      letter-spacing: 1.5px;
+      margin: 9px auto auto;
+      padding-right: 0;
+      position: inherit;
+      width: 201px;
+  }
+
+  .branding .pitch{
+    font-size: 35px;
+    line-height: 1;
+    padding: 0 12% 0 10%;
+    margin-top: 26px;
+  }
+
+  .home .branding .mobiles {
+    background-image: url("/images/branding/mobiles-480.png");
+    background-size: 104%;
+    height: 143px;
+    margin: 10px 2% 0 4.5%;
+  }
+
+  body .main{
+    padding-left: 6%;
+    margin-top: 24px;
+  }
+
+  .home .brand-solid-texture {
+    height: 294px;
+    top: 125px;
+  }
+
+  .about article.last {
+    margin: 9px 0 19px;
+
+  }
+  
+  .about article.tile{
+    width: 92%;
+  }
+  
+  .about article.first{
+    width: 97%;
+  }
+  
+  section.strategy .tile{
+    width: 92%;
+  }
+
+  .tile .leader {
+    float: none;
+  }
+
+  footer {
+    margin-top: 100px;
+  }
+  
+  footer section.bottom {
+    height: 270px;
+  }
+  
 }

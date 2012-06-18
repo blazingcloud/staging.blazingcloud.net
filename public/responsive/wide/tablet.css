@@ -1,11 +1,7 @@
-.debug {
-  background:magenta;
-}
 
 .branding .mobiles {
-  background-image:url('/images/branding/mobiles-full.png');
-  background-position: 72% 0;
-  height: 404px;
+  background-position: 77% 0;
+  height: 387px;
 }
 
 .branding {
@@ -17,7 +13,7 @@
 }
 
 .brand-cloud-logo {
-  height:500px;
+  height:580px;
   background-position: 47.5% 0;
 }
 
@@ -50,7 +46,7 @@ nav.cloud {
 }
 
 .home .strategy .tile {
-  margin: 2.5% 0 1.5% 0;
+  margin: 2.5% 0 3% 0;
   height: 50%;
   padding-left: 2%;
   padding-right: 2%;
