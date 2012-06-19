@@ -25,7 +25,12 @@ nav.cloud li {
   margin-left: 0;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
+  .bottom .tile {
+    width:60%;
+    margin-left: 0;
+  }
+  
   .bottom article.tile li {
     display: inline;    
   }  

@@ -14,3 +14,11 @@ deploy hook added
 heroku addons:add deployhooks:http  url=http://choki-gobbler.herokuapp.com/incoming/deploy/heroku --remote heroku
 --
 note: http://blog.blazingcloud.net is hosted at Media Temple and is implemented in WordPress
+
+--
+deploy to staging:
+
+  git remote add heroku git@heroku.com:blazingcloud-staging.git
+  
+  url to staging: http://blazingcloud-staging.herokuapp.com/
+--
