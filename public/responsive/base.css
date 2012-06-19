@@ -12,8 +12,6 @@ a { color: rgb(226,143,86);}
 
 a:hover  { color: rgb(226,143,86); }
 
-a.active { color: rgb(124,63,9); text-decoration:underline; }	
-
 /* 
  * these elements are certain to be nested under body 
  * their dimensions may be re-configured for a successive css media 
@@ -150,6 +148,7 @@ nav.cloud li {
   float:left;
   margin-right:1em;
 }
+
 nav.cloud li a {
   font-size:1.14em;
   font-family: PTSansNarrowBold;
@@ -157,6 +156,12 @@ nav.cloud li a {
   text-decoration:none;
   text-transform:uppercase;
 }
+
+nav.cloud li a.active {
+  text-decoration:underline;
+  color: rgb(124,63,9);
+}
+
 header .introduction {
   clear:both;
   margin-bottom:1em;
