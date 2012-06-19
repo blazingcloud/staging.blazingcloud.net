@@ -20,6 +20,7 @@
 nav.cloud {
   padding-right: 1%;
   top: 21px;
+  width: 170px;
 }
 
 .branding .pitch {
@@ -64,11 +65,20 @@ nav.cloud {
 
 .community .tile[position="right"] {
   padding-left: 16px;
-  width: 45%;
+  width: 41%;
 }
 
 .bottom-logo {
   background-position: 29%;
+}
+
+.bottom .tile {
+  width: 50%;
+  margin-left: 0;
+}
+
+.bottom article.tile li {
+  width: 65%;
 }
 
 @media screen and (max-width: 960px) {

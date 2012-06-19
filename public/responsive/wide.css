@@ -12,28 +12,29 @@ nav.cloud {
   position:absolute;
   right:0px;
   top:19px;
-  margin: inherit;
   letter-spacing: 1px;
 }
 
 nav.cloud li {
   float:left;
-  margin-right:1em;
+  margin:0 13px 0 0;
 }
 
 .bottom .tile {
-  width: 60%;
+  width: 50%;
+  margin-left: 0;
 }
 
-@media screen and (min-width: 1000px) {
-  .bottom .tile * {
+@media screen and (min-width: 1024px) {
+  .bottom article.tile li {
     display: inline;    
   }  
 }
 
 @media screen and (max-width: 900px) {
   .bottom .tile {
-    width: 50%;
+    width: 55%;
+    margin: 0;
   }
 }
 
@@ -150,4 +151,8 @@ footer {
 .community p {
   margin-top: 2%;
   font-size: 16px;  
+}
+
+.community article.tile {
+  width: 44%;
 }

@@ -159,6 +159,10 @@ footer {
   margin: 2px;
 }
 
+footer section.bottom {
+  height: 270px;
+}
+
 @media screen and (max-width:600px) {
   body .main {
     padding-left: 7%;
@@ -263,7 +267,7 @@ footer {
   }
   
   footer section.bottom {
-    height: 220px;
+    height: 300px;
   }
   
   .community .tile[position="left"] {
