@@ -24,7 +24,11 @@
 }
 
 .about .last {
-  margin: 0 0 37px 0;
+  margin: 0 0 39px 0;
+}
+
+.about .tile{
+  margin: 12px 0 17px;
 }
 
 section .strategy .tile {
@@ -33,13 +37,13 @@ section .strategy .tile {
 }
 
 section .strategy .tile[position="center"] {
-  margin-top: 8px;
+  margin-top: 4px;
   margin-bottom: 0;
 }
 
 .strategy .tile[position="right"] {
- margin-bottom: 19px; 
- margin-top: 13px;
+ margin-bottom: 21px; 
+ margin-top: 14px;
 }
 
 .tile .leader {
@@ -60,6 +64,10 @@ section .strategy .tile[position="center"] {
 
 .community .tile[position="right"] {
   margin-top: 0px;
+}
+
+.community .tile[position="left"] {
+  padding: 0;
 }
 
 footer {
@@ -141,7 +149,11 @@ footer {
   section.strategy .tile{
     width: 92%;
   }
-
+  
+  section.strategy article.tile[position="center"]{
+    margin-top: 12px;
+  }
+  
   .tile .leader {
     float: none;
   }

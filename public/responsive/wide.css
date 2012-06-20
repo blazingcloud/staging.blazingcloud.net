@@ -5,7 +5,7 @@
 
 }
 footer {
-  margin-top:67px;
+  margin-top:46px;
 }
 
 nav.cloud {
@@ -25,7 +25,7 @@ nav.cloud li {
   margin-left: 0;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1000px) {
   .bottom .tile {
     width:60%;
     margin-left: 0;
@@ -39,7 +39,6 @@ nav.cloud li {
 @media screen and (max-width: 900px) {
   .bottom .tile {
     width: 55%;
-    margin: 0;
   }
 }
 
@@ -146,6 +145,7 @@ footer {
 .home .community .leader {
   float:left;
   margin-right: 18px;
+  margin-top: 12px;
 }
 
 .strategy p {
@@ -159,5 +159,10 @@ footer {
 }
 
 .community article.tile {
-  width: 44%;
+  width: 47%;
+  padding-top: 16px;
+}
+
+.community article.tile[position="right"] {
+  margin-left: 2%;
 }

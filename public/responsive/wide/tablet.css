@@ -68,17 +68,12 @@ nav.cloud {
   width: 41%;
 }
 
+.community article.tile {
+  padding-left: 0.4%;
+}
+
 .bottom-logo {
   background-position: 29%;
-}
-
-.bottom article.tile {
-  width: 50%;
-  margin-left: 0;
-}
-
-.bottom article.tile li {
-  width: 65%;
 }
 
 @media screen and (max-width: 960px) {

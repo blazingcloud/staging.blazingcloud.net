@@ -12,6 +12,10 @@ a { color: rgb(226,143,86);}
 
 a:hover  { color: rgb(226,143,86); }
 
+section.community a {
+  font-size: inherit;
+  text-decoration: none;
+}
 /* 
  * these elements are certain to be nested under body 
  * their dimensions may be re-configured for a successive css media 
