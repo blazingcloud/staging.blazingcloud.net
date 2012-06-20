@@ -16,6 +16,12 @@ section.community a {
   font-size: inherit;
   text-decoration: none;
 }
+
+.bottom article.tile a {
+  display: inline;
+  text-decoration: none;
+}
+
 /* 
  * these elements are certain to be nested under body 
  * their dimensions may be re-configured for a successive css media 
