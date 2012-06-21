@@ -255,6 +255,10 @@ footer {
   float:left; /* content will flow around this  */
 }
 
+.services .tile .leader {
+  width: auto;
+}
+
 /* home */
 .home .about .title {
   display:inline;
