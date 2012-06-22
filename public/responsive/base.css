@@ -12,6 +12,7 @@ a { color: rgb(226,143,86);}
 
 a:hover  { color: rgb(226,143,86); }
 
+
 section.community a {
   font-size: inherit;
   text-decoration: none;
@@ -120,7 +121,7 @@ img, ins, kbd,
 q, s, samp, small, 
 strike, strong, sub, 
 sup, tt, var, b, u, 
-i, center, dl, dt, dd, ol, 
+i, center, dl, dt, dd, ul, 
 ul, li, fieldset, form, label,
 legend, table, caption, tbody, 
 tfoot, thead, tr, th, td, 
@@ -151,7 +152,8 @@ nav.cloud {
   margin:0 auto;
   padding-left:16px;
   padding-right:20px;
-  padding-bottom:25px;
+  padding-bottom:22px;
+  padding-top:22px;
   z-index:9999;
 }
 nav.cloud li {
@@ -160,15 +162,16 @@ nav.cloud li {
 }
 
 nav.cloud li a {
+  display: block;
   font-size:1.14em;
   font-family: PTSansNarrowBold;
-
   text-decoration:none;
   text-transform:uppercase;
 }
 
 nav.cloud li a.active {
-  text-decoration:underline;
+  height: 17px;
+  border-bottom:  1px solid rgb(124,63,9);
   color: rgb(124,63,9);
 }
 
