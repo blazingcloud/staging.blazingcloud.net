@@ -30,7 +30,7 @@ nav.cloud {
 
 .home .about .tile {
   margin-top: 12px;
-  margin-bottom: 28px;
+  margin-bottom: 31px;
 }
 
 .home .about .first {
@@ -38,25 +38,24 @@ nav.cloud {
 }
 
 .home .about .last {
-  padding-left: 9%;
   width: 25%;
 }
 
-.strategy p {
-  font-size: 14px;
+.strategy .tile p {
+  font-size: 16px;
 }
 
 .home .strategy .tile {
-  margin: 2.5% 0 3% 0;
+  margin: 4% 0 5.5% 0;
   height: 50%;
   padding-left: 2%;
-  padding-right: 2%;
-  width: 27%;
+  padding-right: 1%;
+  width: 30%;
 }
 
 .strategy .tile[position="center"] {
-  padding-left: 5%;
-  padding-right: 6%;
+  padding-left: 2%;
+  padding-right: 1%;
 }
 
 .grid .tile {
@@ -70,6 +69,7 @@ nav.cloud {
 
 .community article.tile {
   padding-left: 0.4%;
+  margin-top: 14px;
 }
 
 .bottom-logo {
