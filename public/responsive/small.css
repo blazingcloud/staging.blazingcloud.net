@@ -97,6 +97,10 @@ nav.cloud li {
   width: 40%;
 }
 
+.home .about em{
+	font-size: 23px;
+}
+
 .strategy .tile {
   width: 30%;
   height: 50%;
@@ -106,8 +110,9 @@ nav.cloud li {
 }
 
 .strategy .tile p {
-  font-size: 15px;
+  font-size: 18px;
   margin-top: 2px;
+  margin-bottom: 20px
 }
 
 .strategy .tile[position="center"] {
