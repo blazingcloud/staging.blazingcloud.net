@@ -4,14 +4,40 @@
   margin-right:0.5%;
 
 }
+
 footer {
   margin-top:46px;
 }
 
+
+/* Services  */
+body.services section.main{
+  left: 2%;
+}
+
+section.main article.introduction em {
+  font-family: "Arial Narrow";
+  font-size: 25px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+section.main article.introduction p {
+  margin: 0;
+  font-size: 16px;
+}
+
+section.main article.introduction {
+  padding-left: 3%;
+  padding-top: 40px;
+}
+
+
+/* Home     */
 nav.cloud {
-  position:absolute;
-  right:0px;
-  top:19px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
   letter-spacing: 1px;
 }
 
@@ -120,9 +146,7 @@ footer {
 
 /* home */
 .home .strategy .tile {
-  margin-top: 2.5%;
-  margin-bottom:1.5%;
-  margin-right:1%;
+  margin: 2.5% 0.8% 3.5% 1.5%;
   width: 30.5%; /* 3 tiles in grid */
 }
 
@@ -160,7 +184,7 @@ footer {
 
 .community article.tile {
   width: 47%;
-  padding-top: 16px;
+  padding-top: 13px;
 }
 
 .community article.tile[position="right"] {
