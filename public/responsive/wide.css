@@ -146,7 +146,7 @@ footer {
 
 /* home */
 .home .strategy .tile {
-  margin: 2.5% 0.8% 1.5% 1.5%;
+  margin: 2.5% 0.8% 3.5% 1.5%;
   width: 30.5%; /* 3 tiles in grid */
 }
 
@@ -184,7 +184,7 @@ footer {
 
 .community article.tile {
   width: 47%;
-  padding-top: 16px;
+  padding-top: 13px;
 }
 
 .community article.tile[position="right"] {
