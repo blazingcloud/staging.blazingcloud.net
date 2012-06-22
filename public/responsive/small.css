@@ -65,12 +65,11 @@ nav.cloud {
 nav.cloud {
   padding-right: 11px;
   height: 20px;
-  margin: 13px 0 auto;
+  margin: auto;
   width: 194px; /* this value will need to be changed for more words in the nav */
-  margin-top:13px;
   position: absolute;
   right: 1px;
-  top: 6px;
+  top: 0px;
 }
 
 nav.cloud li {
@@ -175,8 +174,8 @@ footer section.bottom {
   }
   
   .brand-solid-texture {
-    height: 347px;
-    top: 124px;
+    height: 325px;
+    top: 142px;
   }
   
   .branding .mobiles {
@@ -198,7 +197,6 @@ footer section.bottom {
   nav.cloud {
     position: inherit;
     margin: auto;
-    margin-top: 7px;
     width: 170px;
     padding-right: 0px;
     padding-left: 3%;

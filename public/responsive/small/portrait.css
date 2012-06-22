@@ -9,14 +9,14 @@
 }
 
 .home .branding .mobiles {
-  height: 181px;
+  height: 170px;
   margin-top: 10px;
   margin-left: 4.5%;
 }
 
 .home .brand-solid-texture {
-  height: 294px;
-  top: 125px;
+  height: 280px;
+  top: 140px;
 }
 
 .branding {
@@ -27,8 +27,9 @@
   margin: 0 0 39px 0;
 }
 
-.about .tile{
-  margin: 12px 0 17px;
+.about .first{
+  margin-top: 20px;
+  margin-bottom: 17px;
 }
 
 section .strategy .tile {
@@ -75,14 +76,23 @@ footer {
 }
 
 @media screen and (max-width: 450px){
-  .branding .pitch {
-    font-size: 25px;
-    margin-top: 32px;
-    padding-right: 2%;
+  .branding .pitch{
+    font-size: 35px;
+    line-height: 1;
+    padding: 0 12% 0 10%;
+    margin-top: 26px;
   }
+  
+  .home .brand-solid-texture {
+    height: 280px;
+  }  
   
   .community .tile {
     width: 90%;
+  }
+  
+  .about article.first{
+   margin-top: 30px;
   }
   
   .about .tile {
@@ -99,17 +109,10 @@ footer {
 
   nav.cloud {
       letter-spacing: 1.5px;
-      margin: 9px auto auto;
+      margin: auto;
       padding-right: 0;
       position: inherit;
       width: 201px;
-  }
-
-  .branding .pitch{
-    font-size: 35px;
-    line-height: 1;
-    padding: 0 12% 0 10%;
-    margin-top: 26px;
   }
 
   .home .branding .mobiles {
@@ -118,20 +121,25 @@ footer {
     height: 143px;
     margin: 10px 2% 0 4.5%;
   }
+  
+  .branding .pitch{
+    font-size: 35px;
+    line-height: 1;
+    padding: 0 12% 0 10%;
+    margin-top: 26px;
+  }
 
   body .main{
     padding-left: 6%;
-    margin-top: 24px;
   }
 
   .home .brand-solid-texture {
-    height: 294px;
-    top: 125px;
+    height: 255px;
+    top: 140px;
   }
-
+  
   .about article.last {
     margin: 9px 0 19px;
-
   }
   
   .about article.tile{
@@ -140,6 +148,7 @@ footer {
   
   .about article.first{
     width: 97%;
+    margin-top: 0;
   }
   
   .community .tile[position="right"] {

@@ -163,6 +163,7 @@ nav.cloud li {
 
 nav.cloud li a {
   display: block;
+  width: inherit;
   font-size:1.14em;
   font-family: PTSansNarrowBold;
   text-decoration:none;
