@@ -15,11 +15,19 @@ body.services section.main{
   left: 2%;
 }
 
-section.main article.introduction em {
-  font-family: "Arial Narrow";
-  font-size: 25px;
-  font-weight: normal;
-  text-transform: uppercase;
+.services footer {
+  position: relative;
+  top: 34px;
+}
+
+section.services article.tile {
+  margin-top: 53px; 
+  margin-right: 0.5%;
+  margin-bottom: 59px;
+  margin-left: 1.6%;
+}
+
+section.services {
 }
 
 section.main article.introduction p {
@@ -30,8 +38,13 @@ section.main article.introduction p {
 section.main article.introduction {
   padding-left: 3%;
   padding-top: 40px;
+  margin-bottom: 11px;
 }
 
+section.services article.tile p {
+  font-size: 16px;
+  margin: 0;
+}
 
 /* Home     */
 nav.cloud {
@@ -95,6 +108,10 @@ footer {
   width:320px;
   height:72px;
   float: left;
+}
+
+.services .bottom-logo {
+  background-position: 65%;
 }
 
 /* .branding */
