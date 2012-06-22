@@ -23,8 +23,8 @@
   height: 406px;
 }
 
-.about .last {
-  margin: 0 0 39px 0;
+.about article.last {
+    margin: 0 0 5px 0;
 }
 
 .about .first{
@@ -43,7 +43,7 @@ section .strategy .tile[position="center"] {
 }
 
 .strategy .tile[position="right"] {
- margin-bottom: 21px; 
+ margin-bottom: 5px; 
  margin-top: 14px;
 }
 
@@ -55,6 +55,7 @@ section .strategy .tile[position="center"] {
 
 .community p {
   padding-top: 0;
+  font-size: 18px;
 }
 
 .community .tile {
@@ -64,11 +65,12 @@ section .strategy .tile[position="center"] {
 }
 
 .community .tile[position="right"] {
-  margin-top: 0px;
+  margin-top: 60px;
 }
 
 .community .tile[position="left"] {
   padding: 0;
+  margin-top:22px;
 }
 
 footer {
@@ -89,6 +91,10 @@ footer {
   
   .community .tile {
     width: 90%;
+  }
+  
+  .about article.last {
+    margin-bottom: 25px;
   }
   
   .about article.first{
@@ -139,7 +145,7 @@ footer {
   }
   
   .about article.last {
-    margin: 9px 0 19px;
+    margin: 9px 0 25px;
   }
   
   .about article.tile{
@@ -152,7 +158,7 @@ footer {
   }
   
   .community .tile[position="right"] {
-    margin-top: 80px;
+    margin-top: 125px;
   }
   
   section.strategy .tile{
