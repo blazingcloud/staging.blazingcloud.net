@@ -84,7 +84,7 @@ footer {
     padding: 0 12% 0 10%;
     margin-top: 26px;
   }
-  
+    
   .home .brand-solid-texture {
     height: 280px;
   }  
@@ -117,13 +117,17 @@ footer {
     background-position: 47% 0;
     background-size: 97%;
   }
-
+  
   nav.cloud {
       letter-spacing: 1.5px;
       margin: auto;
       padding-right: 0;
       position: inherit;
       width: 201px;
+  }
+  
+  .services nav.cloud {
+    width: 201px;
   }
 
   .home .branding .mobiles {
