@@ -287,6 +287,7 @@ footer section.bottom {
 }
 
 .copyright {
+  color: #888;
   width: 100%;
   position: absolute;
   bottom: 0px;
