@@ -1,3 +1,11 @@
+body.services section.main {
+  left: 0;
+  padding-left: 0;
+}
+
+section.services article.tile p {
+  padding-left: 36%;
+}
 
 .branding .mobiles {
   background-position: 77% 0;
@@ -79,9 +87,18 @@ nav.cloud {
 @media screen and (max-width: 960px) {
   .branding .mobiles {
     background-size: contain;
-  } 
+  }
+  
   .brand-cloud-logo {
     background-position: 40% 0;
+  }
+  
+  footer {
+    min-height: 180px;
   } 
+  
+  footer section.bottom {
+    height: 180px;
+  }
 }
 

@@ -144,6 +144,7 @@ nav.cloud li {
 
 footer {
   margin-top: 51px;
+  min-height: 170px;
 }
 
 .bottom-logo {
@@ -165,7 +166,7 @@ footer {
 }
 
 footer section.bottom {
-  height: 270px;
+  height: 170px;
 }
 
 @media screen and (max-width:600px) {
