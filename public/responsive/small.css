@@ -9,6 +9,26 @@ nav.cloud {
   margin:0 auto;
 }
 
+.services p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.services article.introduction {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.services nav.cloud {
+  position: inherit;
+  margin: auto;
+  width: 180px;
+}
+
+.services .tile .leader {
+  margin-bottom: 0;
+}
+
 .home .logo {
   background:0;
   background-position:top left;
@@ -56,10 +76,6 @@ nav.cloud {
 
 .brand-solid-texture {
   height: 398px;
-}
-
-.services .tile .leader {
-  margin-bottom: 3em; /* hack to make the image longer so the text doesn't wrap */
 }
 
 nav.cloud {
@@ -174,7 +190,7 @@ footer section.bottom {
     padding-left: 7%;
     width: 92%;
   }
-    
+      
   .brand-cloud-logo {
     background: 0;
   }
