@@ -23,8 +23,8 @@ staging setup:
   git pull heroku master
   
 deploy to staging:
-  
-  git push heroku master
+
+  rake deploy:staging
 
   url to staging: http://blazingcloud-staging.herokuapp.com/
 
@@ -34,7 +34,7 @@ production setup:
   git remote add production git@heroku.com:blazingcloud.git
   
 deploy to production:
-
-  git push production master
+  
+  rake deploy:production
   
 --
