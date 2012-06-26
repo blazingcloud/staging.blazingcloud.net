@@ -19,9 +19,7 @@ note: http://blog.blazingcloud.net is hosted at Media Temple and is implemented 
 staging setup:
 
   git remote add heroku git@heroku.com:blazingcloud-staging.git
-  
-  git pull heroku master
-  
+    
 deploy to staging:
 
   rake deploy:staging
