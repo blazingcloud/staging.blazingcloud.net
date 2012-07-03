@@ -64,17 +64,15 @@
     <div id='header-wrapper'>
       <div class='header'>
         <a class='logo' href='/'>
-          <img src='blazing cloud' alt='Blazing Cloud'/>
+          <div alt='Blazing Cloud'></div>
         </a>
         <%= erb :nav, :locals => {:active => @pagename } %>
       </div>
     </div>
-    
     <%=yield%>
-    
     <footer>
       <section class='bottom grid'>
-      <div class='bottom-logo' src='images/services/services_mobile_logo.png' alt='blazing cloud'></div>
+        <div class='bottom-logo' alt='blazing cloud'></div>
           <section>
             <article class='tile'>
             <ul>

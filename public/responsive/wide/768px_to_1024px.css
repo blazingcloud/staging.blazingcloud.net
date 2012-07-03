@@ -1,3 +1,7 @@
+body .main {
+  width: 90%;
+}
+
 body.services section.main {
   left: 0;
   padding-left: 0;
@@ -7,13 +11,29 @@ section.services article.tile p {
   padding-left: 36%;
 }
 
+#header-wrapper .header a.logo {
+  width: 65%;
+  padding-left: 5%;
+}
+
+footer .bottom .bottom-logo {
+  width: 26.25%;
+  min-width: 228px;
+  margin-left: 5%;
+}
+
+footer .bottom section {
+  width: 50%;
+  padding-left: 5%;
+}
+
 .branding .mobiles {
   background-position: 77% 0;
   height: 387px;
 }
 
 .branding {
-  height:573px;
+  height:503px;
 }
 
 .brand-solid-texture {
@@ -21,7 +41,7 @@ section.services article.tile p {
 }
 
 .brand-cloud-logo {
-  height:580px;
+  height:507px;
   background-position: 47.5% 0;
 }
 
@@ -72,10 +92,6 @@ section.services article.tile p {
 .community article.tile {
   padding-left: 0.4%;
   margin-top: 18px;
-}
-
-.bottom-logo {
-  background-position: 29%;
 }
 
 @media screen and (max-width: 960px) {

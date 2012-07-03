@@ -1,5 +1,6 @@
-.home .logo {
-  background-position: 58% 0;
+
+.header nav.cloud ul {
+  width: 165px;
 }
 
 .branding .pitch {
@@ -77,7 +78,15 @@ footer {
   margin-top: 53px;
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px){  
+  .header nav.cloud ul {
+    width: 170px;
+  }
+  
+  .branding {
+    height: 260px;
+  }
+  
   .branding .pitch{
     font-size: 35px;
     line-height: 1;
@@ -94,7 +103,7 @@ footer {
   }
   
   .community .tile[position="right"] {
-    margin-top: 55px;
+    margin-top: 30px;
     margin-bottom: 20px;
   }
   
@@ -112,10 +121,18 @@ footer {
 }
 
 @media screen and (max-width: 320px) {
+  #header-wrapper .header a.logo div{
+      background-position: 0 0;
+      background-size: 90% auto;
+  }
   
+  .header nav.cloud ul {
+    width: 200px;
+  }
+
   .home .logo{
-    background-position: 47% 0;
-    background-size: 97%;
+    background-position: 0 0;
+    background-size: contain;
   }
   
   nav.cloud {
@@ -167,7 +184,7 @@ footer {
   }
   
   .community .tile[position="right"] {
-    margin-top: 125px;
+    margin-top: 30px;
   }
   
   section.strategy .tile{

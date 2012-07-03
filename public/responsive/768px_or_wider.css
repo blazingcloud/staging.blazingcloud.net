@@ -37,10 +37,11 @@ section.services article.tile p {
 }
 
 /* Home     */
-
-.home header .header-content .logo {
-  background-image: url("/images/logo/with-clouds.png");
-  background-position: 0 0;
+#header-wrapper .header a.logo div {
+  height: 68px;
+  background-image: url('/images/logo/with-clouds.png');
+  background-position: 1.6% center;
+  background-repeat: no-repeat;
 }
 
 nav.cloud {
@@ -74,13 +75,14 @@ nav.cloud li {
 @media screen and (max-width: 900px) {
 }
 
-.header-content, .main, footer section{
-  max-width:1024px;
+.header, .main, footer section{
+  max-width: 1024px;
   min-height: 72px;
 }
 
 footer {
-  margin: 0;
+  min-height: 100%;
+  margin: 46px 0 0 0;
 }
 
 /* turn off logo on wide as we use brand-cloud-logo */
@@ -88,12 +90,13 @@ footer {
 .underline {
   top:2px;
 }
+
 .bottom-logo {
   height:72px;
   width: 31.25%;
   float: left;
-  background:url('/images/services/services_footer_logo.png') no-repeat;
-  background-position: 16%;
+  background-image: url('/images/services/services_footer_logo.png');
+  background-position: 16% center;
 }
 
 .services .bottom-logo {
