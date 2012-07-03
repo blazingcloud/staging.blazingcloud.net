@@ -5,9 +5,22 @@
 
 }
 
+body {
+  background: url('/images/textures/stone.png');
+}
+
+div#header-wrapper, div.content {
+  background: url('/images/textures/wheat.png');
+  color:rgb(50,50,50);
+}
+
+
 /* Services  */
-.services header .header-content .logo {
-  background-position: 0 0;
+.services #header-wrapper .header a.logo div {
+  height: 68px;
+  background-image: url('/images/logo/with-shadow.png');
+  background-position: 1.6% center;
+  background-repeat: no-repeat;
 }
 
 section.services article.tile {
@@ -80,9 +93,12 @@ nav.cloud li {
   min-height: 72px;
 }
 
+div.content {
+  padding-bottom: 46px;
+}
+
 footer {
-  min-height: 100%;
-  margin: 46px 0 0 0;
+  margin: 0;
 }
 
 /* turn off logo on wide as we use brand-cloud-logo */
