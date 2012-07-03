@@ -61,7 +61,17 @@
   </head>
 
   <body class="<%=@pagename.to_s%>">
+    <div id='header-wrapper'>
+      <div class='header'>
+        <a class='logo' href='/'>
+          <img src='blazing cloud' alt='Blazing Cloud'/>
+        </a>
+        <%= erb :nav, :locals => {:active => @pagename } %>
+      </div>
+    </div>
+    
     <%=yield%>
+    
     <footer>
       <section class='bottom grid'>
       <div class='bottom-logo' src='images/services/services_mobile_logo.png' alt='blazing cloud'></div>
@@ -80,7 +90,7 @@
             </ul>
             </article>
           </section>
-          <div class='copyright'>&copy; 2009-2012 Blazing Cloud, Inc.</div>
+          <span class='copyright'>&copy; 2009-2012 Blazing Cloud, Inc.</span>
       </section>
     </footer>
   </body>

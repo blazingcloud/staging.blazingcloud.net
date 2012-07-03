@@ -5,19 +5,9 @@
 
 }
 
-footer {
-  margin-top:46px;
-}
-
-
 /* Services  */
-body.services section.main{
-  left: 2%;
-}
-
-.services footer {
-  position: relative;
-  top: 34px;
+.services header .header-content .logo {
+  background-position: 0 0;
 }
 
 section.services article.tile {
@@ -47,27 +37,33 @@ section.services article.tile p {
 }
 
 /* Home     */
+
+.home header .header-content .logo {
+  background-image: url("/images/logo/with-clouds.png");
+  background-position: 0 0;
+}
+
 nav.cloud {
-  position: absolute;
-  right: 0px;
-  top: 0px;
+  float: right;
+  padding: 22.5px 0;
   letter-spacing: 1px;
 }
 
 nav.cloud li {
   float:left;
-  margin:0 13px 0 0;
+  padding: 0 6.5px;
+  margin: 0;
 }
 
 .bottom .tile {
-  width: 50%;
-  margin-left: 0;
+  width: 100%;
+  margin: 0;
 }
 
 @media screen and (min-width: 1000px) {
   .bottom .tile {
-    width:60%;
-    margin-left: 0;
+    margin: 0;
+    padding: 18px 0;
   }
   
   .bottom article.tile li {
@@ -76,38 +72,28 @@ nav.cloud li {
 }
 
 @media screen and (max-width: 900px) {
-  .bottom .tile {
-    width: 55%;
-  }
 }
 
-header, .main, footer section{
+.header-content, .main, footer section{
   max-width:1024px;
+  min-height: 72px;
 }
 
 footer {
-  min-width:100%;
-  max-width:100%;
-  margin-left:auto;
-  margin-right:auto;
+  margin: 0;
 }
 
 /* turn off logo on wide as we use brand-cloud-logo */
-.home .logo {
-  background:0;
-}
-.logo {
-  background-position:top left;
-}
+
 .underline {
   top:2px;
 }
 .bottom-logo {
+  height:72px;
+  width: 31.25%;
+  float: left;
   background:url('/images/services/services_footer_logo.png') no-repeat;
   background-position: 16%;
-  width:320px;
-  height:72px;
-  float: left;
 }
 
 .services .bottom-logo {
@@ -116,16 +102,13 @@ footer {
 
 /* .branding */
 .brand-cloud-logo {
-  background-image:url('/images/logo/with-background.png') ;
-  background-repeat: no-repeat ;
-  background-position:50% 0 ;
-  height:564px;
-  position:absolute;
-  top:0px;
-  width:inherit;
-}
-.branding {
-  height:574px;
+  background-image:url('/images/home/clouds.png');
+  background-repeat: repeat-x;
+  background-position: 50% 90%;
+  height: 497px;
+  position: absolute;
+  top: 67px;
+  width: inherit;
 }
 
 .brand-solid-texture {
@@ -147,7 +130,7 @@ footer {
   z-index: 50;
 }
 
-.branding .mobiles {
+.mobiles {
   background-position: center center;
   background-image:url('/images/branding/mobiles-full.png');
   background-repeat:no-repeat;
@@ -155,11 +138,6 @@ footer {
   height: 388px;
   width: 99%;
 }
-
-.branding {
-  height:560px;
-}
-
 
 /* home */
 .home .strategy .tile {

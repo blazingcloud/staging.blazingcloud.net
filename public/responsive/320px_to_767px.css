@@ -59,10 +59,6 @@ nav.cloud {
   height: 516px;
 }
 
-.branding a {
-  width: 40%;
-}
-
 .branding .pitch {
   padding-left: 18px;
 }
@@ -79,18 +75,18 @@ nav.cloud {
 }
 
 nav.cloud {
-  padding-right: 11px;
-  height: 20px;
-  margin: auto;
-  width: 194px; /* this value will need to be changed for more words in the nav */
-  position: absolute;
-  right: 1px;
-  top: 0px;
+  float: right;
+  width: 30%;
+  padding: 22.5px 0;
 }
 
-nav.cloud li {
-  margin-right: 9px;
-  margin-left: 9px;
+nav.cloud ul {
+  width: 168px;
+}
+
+nav.cloud ul li {
+  margin: 0;
+  padding: 0 9px;
 }
 
 .home .about article * {
@@ -159,8 +155,8 @@ nav.cloud li {
 }
 
 footer {
-  margin-top: 51px;
   min-height: 170px;
+  margin: 0;
 }
 
 .bottom-logo {
@@ -170,8 +166,13 @@ footer {
   float: left;
 }
 
+.bottom section {
+  width: 60%;
+}
+
 .bottom .tile {
-  width: 35%;
+  overflow: hidden;
+  width: 100%;
   margin-left: 5%;
   float: left;
 }
@@ -182,7 +183,7 @@ footer {
 }
 
 footer section.bottom {
-  height: 170px;
+  overflow: hidden;
 }
 
 @media screen and (max-width:600px) {
@@ -192,12 +193,12 @@ footer section.bottom {
   }
       
   .brand-cloud-logo {
-    background: 0;
+    display: none;
   }
   
   .brand-solid-texture {
     height: 325px;
-    top: 142px;
+    top: 138px;
   }
   
   .branding .mobiles {
@@ -205,7 +206,7 @@ footer section.bottom {
   }
   
   .branding {
-    height: 467px;
+    height: 325px;
   }
   
   .branding a {
@@ -216,15 +217,17 @@ footer section.bottom {
     margin-top: 36px;
   }
     
-  nav.cloud {
-    position: inherit;
-    margin: auto;
-    width: 170px;
-    padding-right: 0px;
-    padding-left: 3%;
+  header nav.cloud {
+    display: block;
+    min-width: 165px;
+    margin: 0 auto;
+    float: none;
   }
   
-  .home .logo {
+  header a.logo-link {
+    display: block;
+    margin: 0 auto;
+    float: none;
     background-image: url("/images/logo/with-shadow.png");
     background-position: 54% 0;
     background-repeat: no-repeat;
@@ -287,6 +290,10 @@ footer section.bottom {
     float: none;
   }
   
+  .bottom section {
+    width: 100%;
+  }
+  
   .bottom-logo {
     width: 100%;
     background-image: url("/images/logo/only-shadow.png");
@@ -295,17 +302,19 @@ footer section.bottom {
     
   .bottom .tile {
     text-align: center;
-    width: 93%;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .bottom .tile ul {
+    width: 70%;
+    margin: 0 auto;
   }
   
   footer {
-    margin-top: 162px;
+    margin: 0;
   }
-  
-  footer section.bottom {
-    height: 219px;
-  }
-  
+    
   .community .tile[position="left"] {
       padding-right: 6.5%;
   }

@@ -16,11 +16,11 @@
 
 .home .brand-solid-texture {
   height: 280px;
-  top: 140px;
+  top: 138px;
 }
 
 .branding {
-  height: 406px;
+  height: 280px;
 }
 
 .about article.last {
@@ -28,7 +28,7 @@
 }
 
 .about .first{
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 17px;
 }
 

@@ -12,9 +12,22 @@ a { color: rgb(226,143,86);}
 
 a:hover  { color: rgb(226,143,86); }
 
-.services a {
- font-size: 16px;
- text-decoration:none;
+header .header-content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .header-content a.logo-link {
+  width: 70%;
+  float: left;
+  font-size: 16px;
+  text-decoration:none;
+}
+
+nav.cloud ul {
+  overflow: hidden;
+  width: 166px;
+  margin: 0 auto;
 }
 
 section.community a {
@@ -34,16 +47,15 @@ section.community a {
  * */
 body header,
 body footer > section {
-  margin: 0 auto;
+  overflow: hidden;
   width:100%;
-  position:relative;
+  margin: 0 auto;
 }
 
 body .main {
-  width:90%;
+  overflow: hidden;
+  width:100%;
   margin: 0 auto;
-  padding-left:1%;
-  padding-right:1%;
   position:relative;
 }
 
@@ -60,7 +72,6 @@ body .main {
   background-image:url('/images/logo/with-shadow.png');
   background-repeat:no-repeat;
   background-position:center center;
-  width:inherit;
   height:71px;
   z-index:1000;
   position:relative;
@@ -85,16 +96,17 @@ body .main {
 .branding {
   position:relative;
   overflow:hidden;
-  height: 26em;
   width:inherit;
 }
+
 .branding .pitch {
   font-size:35.5px;
   color:black;
   margin-top:44px;
   text-shadow: 1px 1px 1px #fff;
 }
-.branding .mobiles {
+
+.mobiles {
   background-position: center center;
   background-image:url('/images/branding/mobiles-320.png');
   background-repeat:no-repeat;
@@ -162,11 +174,9 @@ article, p {
   margin-top:1em;
 }
 nav.cloud {
+  width: 30%;
+  min-width: 165px;
   margin:0 auto;
-  padding-left:16px;
-  padding-right:20px;
-  padding-bottom:22px;
-  padding-top:22px;
   z-index:9999;
 }
 nav.cloud li {
@@ -212,7 +222,6 @@ footer {
   color:rgb(250,250,250);
   font-weight:bold;
   clear:both;
-  min-height:150px;
   background: url('/images/textures/stone.png');
   margin-top:13em;
 }
@@ -224,7 +233,8 @@ footer {
  *
  */
 .bottom section{
-
+  overflow: hidden;
+  width: 68.75%;
 }
 
 .bottom .tile > a {
@@ -290,22 +300,20 @@ footer {
 }
 
 .community .tile {
-  height: 219px;
+  overflow: hidden;
   padding-top: 1.4%;
   margin-bottom: 2%;
 }
 
 footer section.bottom {
-  height: 150px;
   font-weight: normal;
 }
 
 .copyright {
-  color: #888;
   width: 100%;
-  position: absolute;
-  bottom: 0px;
+  display: block;
+  margin: 0;
+  padding: 10px 0;
   text-align: center;
-  margin-bottom: 21px;
-  margin-top: 21px;
+  color: #888;
 }
