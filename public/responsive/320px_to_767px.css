@@ -4,16 +4,16 @@ body .main {
   width: 94%;
 }
   
-#header-wrapper .header a.logo div {
-  height: 68px;
-  background-image: url('/images/logo/with-clouds.png');
-  background-position: 1.6% center;
-  background-repeat: no-repeat;
-}
-
 #header-wrapper .header a.logo {
   width: 65%;
   padding-left: 5%;
+}
+
+#header-wrapper .header a.logo div {
+  height: 68px;
+  background-image: url('/images/logo/with-cloud.png');
+  background-position: 1.6% center;
+  background-repeat: no-repeat;
 }
 
 .bottom-logo {
@@ -35,16 +35,29 @@ nav.cloud {
   margin: 0;
 }
 
+.services #header-wrapper .header a.logo {
+  width: 60%;
+}
+
+.services #header-wrapper .header a.logo div {
+  background-image: url('/images/logo/with-shadow.png');
+}
+
+.services #header-wrapper .header nav.cloud {
+  position: inherit;
+  margin: auto;
+  width: 180px;
+}
+
+.services div.content div.services-content {
+  margin-top: 30px;
+}
+
 .services article.introduction {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.services nav.cloud {
-  position: inherit;
-  margin: auto;
-  width: 180px;
-}
 
 .services .tile .leader {
   margin-bottom: 0;
@@ -97,7 +110,7 @@ nav.cloud {
 }
 
 nav.cloud ul {
-  width: 168px;
+  width: 170px;
 }
 
 nav.cloud ul li {
@@ -182,7 +195,7 @@ footer {
 }
 
 .bottom section {
-  width: 55%;
+  width: 50%;
   padding-left: 5%;
 }
 
@@ -206,6 +219,15 @@ footer section.bottom {
   body .main {
     padding-left: 7%;
     width: 92%;
+  }
+  
+  body.services div.content div.services-content {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  body.services div.content .main  {
+    padding: 0;
   }
       
   .brand-cloud-logo {
@@ -235,8 +257,8 @@ footer section.bottom {
     min-width: 165px;
     float: none;
   }
-  
-  #header-wrapper .header a.logo {
+    
+  .services #header-wrapper .header a.logo, #header-wrapper .header a.logo {
     width: 100%;
     float: none;
     padding: 0;

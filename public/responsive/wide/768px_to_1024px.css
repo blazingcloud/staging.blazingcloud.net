@@ -2,13 +2,18 @@ body .main {
   width: 90%;
 }
 
-body.services section.main {
-  left: 0;
-  padding-left: 0;
+nav.cloud ul {
+  width: 170px;
 }
 
-section.services article.tile p {
-  padding-left: 36%;
+body.services section.main {
+  left: 0;
+  padding-left: 115px;
+  padding-right: 25px;
+}
+
+body.services .tile .leader {
+  margin-left: 20px;
 }
 
 #header-wrapper .header a.logo {
@@ -23,8 +28,8 @@ footer .bottom .bottom-logo {
 }
 
 footer .bottom section {
-  width: 50%;
-  padding-left: 5%;
+  width: 57%;
+  padding-left: 2%;
 }
 
 .branding .mobiles {
@@ -33,11 +38,11 @@ footer .bottom section {
 }
 
 .branding {
-  height:503px;
+  height:500px;
 }
 
 .brand-solid-texture {
-  height: 507px;
+  height: 505px;
 }
 
 .brand-cloud-logo {
@@ -94,11 +99,7 @@ footer .bottom section {
   margin-top: 18px;
 }
 
-@media screen and (max-width: 960px) {
-  nav.cloud ul {
-    width: 75%;
-  }
-  
+@media screen and (max-width: 960px) {  
   .branding .mobiles {
     background-size: contain;
   }

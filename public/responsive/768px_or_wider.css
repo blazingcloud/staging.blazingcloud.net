@@ -2,7 +2,6 @@
   width:47.5%;
   margin-left:1.5%;
   margin-right:0.5%;
-
 }
 
 body {
@@ -16,6 +15,13 @@ div#header-wrapper, div.content {
 
 
 /* Services  */
+.services div.services-content {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+
 .services #header-wrapper .header a.logo div {
   height: 68px;
   background-image: url('/images/logo/with-shadow.png');
@@ -24,10 +30,7 @@ div#header-wrapper, div.content {
 }
 
 section.services article.tile {
-  margin-top: 53px; 
-  margin-right: 0.5%;
-  margin-bottom: 59px;
-  margin-left: 1.6%;
+  margin: 53px 0 59px 0;
 }
 
 section.services {
@@ -39,7 +42,6 @@ section.main article.introduction p {
 }
 
 section.main article.introduction {
-  padding-left: 3%;
   padding-top: 40px;
   margin-bottom: 11px;
 }
@@ -104,6 +106,7 @@ footer {
 /* turn off logo on wide as we use brand-cloud-logo */
 
 .underline {
+  left: -25px;
   top:2px;
 }
 

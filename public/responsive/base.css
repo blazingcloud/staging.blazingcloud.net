@@ -54,7 +54,7 @@ body footer > section {
 
 body .main {
   overflow: hidden;
-  width:100%;
+  width: 70%;
   margin: 0 auto;
   position:relative;
 }
@@ -203,7 +203,7 @@ nav.cloud li a.active {
   border-top-width: 1px ;
   border-top-style:solid; 
   border-top-color:#eaeaea;
-  width:98%;
+  width:94%;
   position:relative;
   top:9px;
 }
@@ -264,11 +264,18 @@ footer {
   width:100%;
 }
 /* services */
+body.services .main {
+  width: auto;
+  padding-left: 65px;
+  padding-right: 32px;
+}
+
 .services .tile {
  margin-bottom:3em;
 }
 .services .tile > .leader {
-  margin: 0 1em;
+  margin-right: 12px;
+  margin-left: 10px;
   float:left; /* content will flow around this  */
 }
 
