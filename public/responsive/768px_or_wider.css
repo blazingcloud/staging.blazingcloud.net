@@ -48,7 +48,8 @@ section.main article.introduction {
 
 section.services article.tile p {
   font-size: 16px;
-  margin: 0;
+  margin-left: 30px;
+  margin-right: 20px;
 }
 
 /* Home     */
@@ -92,7 +93,7 @@ nav.cloud li {
 
 .header, .main, footer section{
   max-width: 1024px;
-  min-height: 72px;
+  min-height: 73px;
 }
 
 div.content {
