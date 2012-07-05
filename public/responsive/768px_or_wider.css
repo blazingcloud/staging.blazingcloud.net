@@ -107,7 +107,8 @@ footer {
 /* turn off logo on wide as we use brand-cloud-logo */
 
 .underline {
-  left: -25px;
+  width: 93%;
+  left: -30px;
   top:2px;
 }
 
