@@ -54,7 +54,7 @@ body footer > section {
 
 body .main {
   overflow: hidden;
-  width: 70%;
+  width: 79.5%;
   margin: 0 auto;
   position:relative;
 }
@@ -224,7 +224,7 @@ footer {
  */
 .bottom section{
   overflow: hidden;
-  width: 68.75%;
+  width: 62.75%;
 }
 
 .bottom .tile > a {

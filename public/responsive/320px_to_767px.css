@@ -9,21 +9,24 @@ body .main {
   padding-left: 5%;
 }
 
+.services #header-wrapper .header a.logo {
+  padding-left: 0px;
+}
+
 #header-wrapper .header a.logo div {
   height: 68px;
   background-image: url('/images/logo/with-cloud.png');
-  background-position: 1.6% center;
+  background-position: 22% center;
   background-repeat: no-repeat;
 }
 
 .bottom-logo {
-  height:72px;
+  height:71px;
   width: 31.25%;
   float: left;
   background-image: url('/images/services/services_footer_logo.png');
   background-position: 16% center;
 }
-
 
 nav.cloud {
   width:20em;
@@ -69,7 +72,7 @@ nav.cloud {
 
 /* .branding */
 .brand-cloud-logo {
-  background-image:url('/images/home/clouds.png');
+  background-image: url('/images/home/clouds.png');
   background-repeat: repeat-x;
   background-position: 50% 90%;
   height: 448px;
@@ -94,7 +97,7 @@ nav.cloud {
 
 .branding .mobiles {
   background-size: contain;
-  background-image:url('/images/branding/mobiles-728.png');
+  background-image: url('/images/branding/mobiles-728.png');
   height: 316px;
   margin-left: 3%;
 }
@@ -162,7 +165,7 @@ nav.cloud ul li {
 }
 
 .community .tile {
-  width: 40%;
+  width: 45%;
   margin-right: 0;
   margin-top: 30px;
   padding-top: 0;
