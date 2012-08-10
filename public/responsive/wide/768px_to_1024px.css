@@ -3,7 +3,7 @@ body .main {
 }
 
 nav.cloud ul {
-  width: 175px;
+  width: 245px;
 }
 
 body.services section.main {
@@ -17,19 +17,8 @@ body.services .tile .leader {
 }
 
 #header-wrapper .header a.logo {
-  width: 65%;
+  width: 61%;
   padding-left: 5%;
-}
-
-footer .bottom .bottom-logo {
-  width: 26.25%;
-  min-width: 228px;
-  margin-left: 5%;
-}
-
-footer .bottom section {
-  width: 57%;
-  padding-left: 2%;
 }
 
 .branding .mobiles {
@@ -99,6 +88,43 @@ footer .bottom section {
   margin-top: 18px;
 }
 
+
+.copyright {
+  padding: 10px 0;
+}
+
+/* Portfolio Page */
+body.portfolio .main {
+  left: 0;
+  padding-left: 11.6%;
+}
+
+.slidesPagination {
+    left: 45%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.portfolioSlides {
+    margin: 0 auto;
+    overflow: hidden;
+    padding-left: 13%;
+    position: relative;
+    width: 82%;
+}
+
+ #slides .slidesNext,#slides .slidesPrevious {
+    position:absolute;
+    top:19%;
+    left:9%;
+    width:24px;
+}
+
+  #slides .slidesNext {
+    left:81%;
+  }
+
 @media screen and (max-width: 960px) {  
   .branding .mobiles {
     background-size: contain;
@@ -108,12 +134,34 @@ footer .bottom section {
     background-position: 40% 0;
   }
   
+  .slidesPagination {
+    left: 45%;
+    position: absolute;
+    top: 37%;
+    width: 100%;
+  }
+  
+  #slides .product p {
+  height: 500px;
+  overflow: hidden;
+}
+  
+  #slides .slidesNext,#slides .slidesPrevious {
+    position:absolute;
+    top:14%;
+    left:9%;
+    width:24px;
+}
+
+  #slides .slidesNext {
+    left:81%;
+  }  
   footer {
     min-height: 180px;
   } 
   
   footer section.bottom {
-    height: 180px;
+    height: 206px;
   }
 }
 

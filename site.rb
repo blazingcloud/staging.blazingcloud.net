@@ -13,6 +13,7 @@ class Site < Sinatra::Base
   before '*' do
     @title = "Blazing Cloud | Mobile Product Development"
   end
+  
   get '/' do
     @pagename = 'home'
     erb(:homepage)
@@ -20,13 +21,21 @@ class Site < Sinatra::Base
   get '/service' do
     redirect to('/services')
   end
+  
   get '/services' do
     @pagename = 'services'
     erb(:services)
   end
+  
+  get '/portfolio' do
+    @pagename = 'portfolio'
+    erb(:portfolio)
+  end
+  
   get '/blog' do
     redirect "http://blog.blazingcloud.net", "you found our blog!"
   end
+  
   get '/*' do
     path = params[:splat].join
     redirect "http://blog.blazingcloud.net/#{path}", "you found our blog!"

@@ -26,7 +26,7 @@ a:hover  { color: rgb(226,143,86); }
 
 nav.cloud ul {
   overflow: hidden;
-  width: 210px;
+  width: 270px;
   margin: 0 auto;
 }
 
@@ -224,7 +224,8 @@ footer {
  */
 .bottom section{
   overflow: hidden;
-  width: 62.75%;
+  width: 100%;
+  text-align: center;
 }
 
 .bottom .tile > a {
@@ -310,7 +311,54 @@ footer section.bottom {
   width: 100%;
   display: block;
   margin: 0;
-  padding: 10px 0;
   text-align: center;
   color: #888;
+  padding-bottom: 10px;
 }
+
+/* Portfolio Page */
+body.portfolio .main {
+  width: auto;
+  padding-left: 6.7%;
+  padding-right: 5%;
+}
+
+
+.portfolioSlides {
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position:relative;
+  padding-left: 6.7%;
+  padding-right: 5%;
+}
+
+.portfolio-content hr {
+  display: none;
+}
+
+#slides .product {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+  padding: 6% 2% 1% 1%;
+}
+
+#slides .ourWork {
+    width: 40%;
+    float: left;
+    overflow: hidden;
+    padding: 6% 1% 1% 3%;
+}
+
+#slides h3 {
+  color: #888888;
+  font-size: 16px;
+}
+
+#slides .product p {
+  height: 400px;
+  overflow: hidden;
+}
+
+

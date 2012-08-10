@@ -1,0 +1,79 @@
+<div class='content'>
+    <div class='portfolio-content'>
+      <section class='main'>
+      		<article class='introduction '>
+      			<em class='title' > Our Work </em>
+      			<p>Summary of our work <a href='mailto:info@blazingcloud.net'>Send us an Email</a></p>
+      		</article>
+      		<hr class='underline'/>
+      </section>
+      <section class='main grid portfolio'>
+      		<article class='tile side'>
+        			<em class='title'> Product Name </em>
+        			<h3>Overview</h3>
+        			<p>Our multi-disciplinary approach can include design, development and strategy, complementing the resources on your team.</p>
+      		</article>
+      		<article class='tile middle'>
+        			<img src="images/portfolio/ipad.png"/>
+      		</article>
+      		<article class='tile side'>
+        			<em class='title'>What we did</em>
+        			<h3>Services</h3>
+        			<p>Our multi-disciplinary approach can include design, development and strategy, complementing the resources on your team.</p>
+      		</article>
+      </section>
+      
+      <div id="slides">
+				
+				<div class="slides_container">
+					<div class="slide">
+						<p>Our multi-disciplinary approach can include design, development and strategy, complementing the resources on your team.</p>
+						<img src="nature1.jpg">
+						<p>Our multi-disciplinary approach can include design, development and strategy, complementing the resources on your team.</p>
+					</div>
+					<div class="slide">
+						<p>Our multi-disciplinary approach can include design, development and strategy, complementing the resources on your team.</p>
+						<img src="nature2.jpg">
+						<p>Our multi-disciplinary approach can include design, development and strategy, complementing the resources on your team.</p>
+					</div>
+					<div class="slide">
+						<p>Our multi-disciplinary approach can include design, development and strategy, complementing the resources on your team.</p>
+						<img src="nature3.jpg">
+						<p>Our multi-disciplinary approach can include design, development and strategy, complementing the resources on your team.</p>
+					</div>
+					
+				</div>
+				<a href="#" class="prev"><img src="img/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
+				<a href="#" class="next"><img src="img/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
+			</div>
+	<script>
+		$(function(){
+			// Set starting slide to 1
+			var startSlide = 1;
+			// Get slide number if it exists
+			if (window.location.hash) {
+				startSlide = window.location.hash.replace('#','');
+			}
+			// Initialize Slides
+			$('#slides').slides({
+				preload: true,
+				preloadImage: 'img/loading.gif',
+				generatePagination: true,
+				//play: 5000,
+				//pause: 2500,
+				hoverPause: true,
+				// Get the starting slide
+				start: startSlide,
+				animationComplete: function(current){
+					// Set the slide number as a hash
+					window.location.hash = '#' + current;
+				}
+			});
+		});
+	</script>
+    
+    
+      
+    </div>
+</div>
+

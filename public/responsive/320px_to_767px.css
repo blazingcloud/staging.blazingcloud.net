@@ -1,12 +1,10 @@
-
 body .main {
   padding-left: 4.5%;
   width: 94%;
 }
   
 #header-wrapper .header a.logo {
-  width: 65%;
-  padding-left: 5%;
+  width: 59%;
 }
 
 .services #header-wrapper .header a.logo {
@@ -16,16 +14,8 @@ body .main {
 #header-wrapper .header a.logo div {
   height: 68px;
   background-image: url('/images/logo/with-cloud.png');
-  background-position: 22% center;
+  background-position: center center;
   background-repeat: no-repeat;
-}
-
-.bottom-logo {
-  height:71px;
-  width: 31.25%;
-  float: left;
-  background-image: url('/images/services/services_footer_logo.png');
-  background-position: 16% center;
 }
 
 nav.cloud {
@@ -49,7 +39,7 @@ nav.cloud {
 .services #header-wrapper .header nav.cloud {
   position: inherit;
   margin: auto;
-  width: 180px;
+  width: 211px;
 }
 
 .services div.content div.services-content {
@@ -108,12 +98,12 @@ nav.cloud {
 
 nav.cloud {
   float: right;
-  width: 30%;
+  width: 211px;
   padding: 22.5px 0;
 }
 
 nav.cloud ul {
-  width: 170px;
+  width: 280px;
 }
 
 nav.cloud ul li {
@@ -142,7 +132,7 @@ nav.cloud ul li {
 }
 
 .home .about em{
-	font-size: 23px;
+  font-size: 23px;
 }
 
 .strategy .tile {
@@ -190,22 +180,9 @@ footer {
   margin: 40px 0 0 0;
 }
 
-.bottom-logo {
-  min-width: 228px;
-  width: 31%;
-  float: left;
-  margin-left: 5%;
-}
-
-.bottom section {
-  width: 50%;
-  padding-left: 5%;
-}
-
 .bottom .tile {
   overflow: hidden;
   width: 100%;
-  margin-left: 5%;
   float: left;
 }
 
@@ -217,6 +194,8 @@ footer {
 footer section.bottom {
   overflow: hidden;
 }
+
+
 
 @media screen and (max-width:600px) {
   body .main {
@@ -255,9 +234,8 @@ footer section.bottom {
   }
     
   #header-wrapper .header nav.cloud {
-    width: 100%;
     display: block;
-    min-width: 165px;
+    min-width: 225px;
     float: none;
   }
     
@@ -361,11 +339,75 @@ footer section.bottom {
   .community .tile[position="left"] {
       padding-right: 6.5%;
   }
+  
+   body.portfolio div.content .main {
+    padding: 0;
+  }
+
+}
+
+.services .tile {
+  margin-bottom: 3%;
 }
 
 
+/* Portfolio Page */
+body.portfolio div.content div.portfolio-content {
+    margin: 0 auto;
+    width: 90%;
+}
 
 
+body.portfolio .main {
+  padding-left: 65px;
+  padding-right: 25px;
+}
 
+.portfolioSlides {
+  width: 94%;
+}
 
+.portfolio #header-wrapper .header a.logo div {
+   background-image: url("/images/logo/with-shadow.png");
+}
+
+.portfolio article.introduction {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 5%;
+}
+
+.slidesPagination {
+    left: 40%;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+
+section.portfolio {
+  padding-top: 0;
+}
+
+.portfolio p, h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+section.portfolio .tile{
+  width: 100%;
+}
+
+#slides .product {
+    width: 90%;
+    float: left;
+    overflow: hidden;
+    padding: 15% 2% 1% 1%;
+}
+
+#slides .ourWork {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    padding: 1% 1% 1% 3%;
+}
 

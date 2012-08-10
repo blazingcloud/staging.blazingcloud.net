@@ -22,7 +22,7 @@ div#header-wrapper, div.content {
 }
 
 .services #header-wrapper {
-  height: 80px;
+  height: 82px;
 }
 
 .services #header-wrapper .header a.logo div {
@@ -96,6 +96,7 @@ nav.cloud li {
   #header-wrapper .header a.logo div {
     background-position: 21.6%;
   }
+  
 }
 
 .header, .main, footer section{
@@ -121,14 +122,13 @@ footer {
 
 .bottom-logo {
   height:71px;
-  width: 31.25%;
-  float: left;
-  background-image: url('/images/services/services_footer_logo.png');
-  background-position: 65% center;
+  width: 100%;
+  background-image: url('/images/logo/only-shadow.png');
+  background-position: center center;
 }
 
 .services .bottom-logo {
-  background-position: 65%;
+  background-position: center center;
 }
 
 /* .branding */
@@ -216,3 +216,24 @@ footer {
 .community article.tile[position="right"] {
   margin-left: 2%;
 }
+
+
+
+/* Portfolio  */
+.portfolio div.portfolio-content {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.portfolio #header-wrapper {
+  height: 83px;
+}
+
+.portfolio #header-wrapper .header a.logo div {
+  background-image: url('/images/logo/with-shadow.png');
+  background-position: 1.6% center;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+
