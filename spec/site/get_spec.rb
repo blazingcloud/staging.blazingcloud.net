@@ -53,6 +53,19 @@ describe Site do
     end
   end
   
+  
+   context "get /portfolio" do
+    before do
+      get "/portfolio"
+    end
+    it "sets @pagename" do
+      app.instance_variable_get("@pagename").should == 'portfolio'
+    end
+    it "is ok" do
+      last_response.should be_ok 
+    end
+  end
+  
   context "get /portfolio" do
     before do
         get "/portfolio"
@@ -61,7 +74,7 @@ describe Site do
         app.instance_variable_get("@pagename").should == 'portfolio'
     end
     it "redirect to /portfolio" do
-      last_response.headers['Location'].should match('/portfolio')
+        last_response.should be(200)
     end
   end
   
