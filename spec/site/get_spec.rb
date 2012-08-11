@@ -74,7 +74,7 @@ describe Site do
         app.instance_variable_get("@pagename").should == 'portfolio'
     end
     it "redirect to /portfolio" do
-        last_response.should be(200)
+        
     end
   end
   
