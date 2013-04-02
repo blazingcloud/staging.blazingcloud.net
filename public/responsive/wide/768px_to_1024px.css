@@ -114,16 +114,20 @@ body.portfolio .main {
     width: 82%;
 }
 
- #slides .slidesNext,#slides .slidesPrevious {
+#slides .slidesNext,#slides .slidesPrevious {
     position:absolute;
     top:19%;
     left:9%;
     width:24px;
 }
 
-  #slides .slidesNext {
-    left:81%;
-  }
+#slides .slidesNext {
+  left:81%;
+}
+
+.clients .logos-grid .tile {
+	width: 50%;
+}
 
 @media screen and (max-width: 960px) {  
   .branding .mobiles {

@@ -48,7 +48,7 @@ section.community a {
 body #header-wrapper,
 body footer > section {
   overflow: hidden;
-  width:100%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -293,7 +293,7 @@ body.services .main {
 }
 
 .clients .logos-grid .tile {
-	width: 10%;
+	width: 30%;
 	overflow: hidden;
 	float: left;
 	margin: 0px;
