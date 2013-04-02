@@ -46,14 +46,26 @@ nav.cloud {
   margin-top: 30px;
 }
 
-.services article.introduction {
+.services article.introduction, article.clients {
   text-align: center;
   margin-bottom: 20px;
 }
 
-
 .services .tile .leader {
   margin-bottom: 0;
+}
+
+.clients .logos-grid {
+	padding: 5px;
+	margin-left: 20px;
+}
+
+.clients .logos-grid .tile {
+	width: 30%;
+	overflow: hidden;
+	float: left;
+	margin: 0px;
+	text-align: center;
 }
 
 .underline {

@@ -73,17 +73,19 @@ section .strategy .tile[position="center"] {
   margin-top:22px;
 }
 
- #slides .slidesNext,#slides .slidesPrevious {
-    position:absolute;
-    top:8%;
-    left:0;
-  }
-  
-   #slides .slidesNext {
-    left:81%;
-  }
-  
-  
+#slides .slidesNext,#slides .slidesPrevious {
+   position:absolute;
+   top:8%;
+   left:0;
+ }
+ 
+#slides .slidesNext {
+  left:81%;
+}
+
+.services-content .services img {
+	display: none;
+}
 
 footer {
   margin-top: 53px;

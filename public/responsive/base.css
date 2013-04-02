@@ -157,6 +157,13 @@ section.main article.introduction em {
   line-height: 1.35;
 }
 
+section.main article.introduction em, article.clients em {
+  font-family: "Arial Narrow", Arial;
+  font-size: 25px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1.35;
+}
 
 .title {
   font-family: PTSansNarrowBold;
@@ -272,8 +279,27 @@ body.services .main {
 }
 
 .services .tile {
- margin-bottom:3em;
+	margin-bottom:3em;
 }
+
+.clients {
+	overflow: hidden;
+}
+
+.clients .logos-grid {
+	width: 100%;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.clients .logos-grid .tile {
+	width: 10%;
+	overflow: hidden;
+	float: left;
+	margin: 0px;
+	text-align: center;
+}
+
 .services .tile > .leader {
   margin-right: 12px;
   margin-left: 10px;
