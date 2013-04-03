@@ -87,6 +87,10 @@ section .strategy .tile[position="center"] {
 	display: none;
 }
 
+.clients .logos-grid .tile {
+	width: 100%;
+}
+
 footer {
   margin-top: 53px;
 }

@@ -57,11 +57,10 @@ nav.cloud {
 
 .clients .logos-grid {
 	padding: 5px;
-	margin-left: 20px;
 }
 
 .clients .logos-grid .tile {
-	width: 30%;
+	width: 50%;
 	overflow: hidden;
 	float: left;
 	margin: 0px;
@@ -206,8 +205,6 @@ footer {
 footer section.bottom {
   overflow: hidden;
 }
-
-
 
 @media screen and (max-width:600px) {
   body .main {

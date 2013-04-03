@@ -289,7 +289,7 @@ body.services .main {
 .clients .logos-grid {
 	width: 100%;
 	overflow: hidden;
-	padding: 10px;
+	margin-top: 54px;
 }
 
 .clients .logos-grid .tile {
