@@ -1,7 +1,11 @@
 .grid .tile {
-  width:47.5%;
-  margin-left:1.5%;
-  margin-right:0.5%;
+  width: 47.5%;
+  margin-left: 1.5%;
+  margin-right: 0.5%;
+}
+
+.services.grid .tile {
+	width: 40%;
 }
 
 body {
@@ -17,7 +21,8 @@ div#header-wrapper, div.content {
 /* Services  */
 .services div.services-content {
   width: 100%;
-  max-width: 1024px;
+  max-width: 1060px;
+	overflow:	hidden;
   margin: 0 auto;
 }
 
@@ -33,10 +38,8 @@ div#header-wrapper, div.content {
 }
 
 section.services article.tile {
-  margin: 53px 0 59px 0;
-}
-
-section.services {
+  margin: 0px;
+	padding: 55px 55px 47px 30px;
 }
 
 section.main article.introduction p {
@@ -45,7 +48,7 @@ section.main article.introduction p {
 }
 
 section.main article.introduction {
-  padding-top: 40px;
+  padding-top: 25px;
   margin-bottom: 11px;
 }
 
@@ -115,9 +118,9 @@ footer {
 /* turn off logo on wide as we use brand-cloud-logo */
 
 .underline {
-  width: 93%;
-  left: -30px;
-  top:2px;
+  width: 80%;
+  top: 2px;
+	left: -45px;
 }
 
 .bottom-logo {
@@ -216,8 +219,6 @@ footer {
 .community article.tile[position="right"] {
   margin-left: 2%;
 }
-
-
 
 /* Portfolio  */
 .portfolio div.portfolio-content {

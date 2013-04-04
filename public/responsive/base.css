@@ -55,8 +55,13 @@ body footer > section {
 body .main {
   overflow: hidden;
   width: 79.5%;
+	max-width: 916px;
   margin: 0 auto;
   position:relative;
+}
+
+body .services-content .main {
+	max-width: 100%;
 }
 
 /*  responsive content */
@@ -273,9 +278,8 @@ footer {
 }
 /* services */
 body.services .main {
-  width: auto;
-  padding-left: 65px;
-  padding-right: 32px;
+  width: 100%;
+	padding-left: 40px;
 }
 
 .services .tile {
@@ -283,21 +287,37 @@ body.services .main {
 }
 
 .clients {
+	width: 96%;
 	overflow: hidden;
+	margin: 0px;
+}
+
+.clients em {
+	padding-top: 9px;
+	padding-left: 50px;
 }
 
 .clients .logos-grid {
 	width: 100%;
 	overflow: hidden;
-	margin-top: 54px;
+	margin-top: 50px;
 }
 
 .clients .logos-grid .tile {
-	width: 30%;
-	overflow: hidden;
+/*	background-color: #ABC;
+	border: 1px #AB1 solid;
+*/	width: 33%;
+	min-width: 250px;
+	height: 155px;
 	float: left;
 	margin: 0px;
+	line-height: 150px;
 	text-align: center;
+}
+
+.clients .logos-grid .tile img {
+	vertical-align: middle;
+/*	background-color: #ACD;*/
 }
 
 .services .tile > .leader {
@@ -308,6 +328,10 @@ body.services .main {
 
 .services .tile .leader {
   width: auto;
+}
+
+.services .main.intro {
+	padding-left: 85px;
 }
 
 /* home */
