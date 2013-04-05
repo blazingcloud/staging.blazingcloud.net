@@ -113,6 +113,16 @@ section.services article.tile {
 	padding-left: 40px;
 }
 
+.services .tile .text-wrapper {
+	width: 58%;
+}
+
+.services .tile > .leader {
+	width: 30%;
+  margin-right: 12px;
+	float: left;
+}
+
 /* Portfolio Page */
 body.portfolio .main {
   left: 0;

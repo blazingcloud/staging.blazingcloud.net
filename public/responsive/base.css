@@ -323,7 +323,12 @@ body.services .main {
 .services .tile > .leader {
   margin-right: 12px;
   margin-left: 10px;
-  float:left; /* content will flow around this  */
+	float: left;
+}
+
+.services .tile .text-wrapper {
+	float: right;
+	width: 70%;
 }
 
 .services .tile .leader {
