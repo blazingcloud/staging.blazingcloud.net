@@ -87,6 +87,11 @@ section .strategy .tile[position="center"] {
 	display: none;
 }
 
+.services-content .services .text-wrapper {
+	width: 100%;
+	float: none;
+}
+
 .clients .logos-grid {
 	width: 100%;
 }
