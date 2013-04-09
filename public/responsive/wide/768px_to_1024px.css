@@ -2,10 +2,6 @@ body .main {
   width: 90%;
 }
 
-nav.cloud ul {
-  width: 245px;
-}
-
 body.services section.main {
   padding-right: 25px;
 	padding-left: 60px;
@@ -20,7 +16,6 @@ body.services .tile .leader {
 }
 
 #header-wrapper .header a.logo {
-  width: 61%;
   padding-left: 5%;
 }
 

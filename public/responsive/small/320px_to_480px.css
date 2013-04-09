@@ -1,7 +1,3 @@
-.header nav.cloud ul {
-  width: 225px;
-}
-
 .branding .pitch {
   font-size: 33.5px;
   margin-top: 32px;
@@ -103,11 +99,12 @@ section .strategy .tile[position="center"] {
 footer {
   margin-top: 53px;
 }
+
  
 
 @media screen and (max-width: 450px){  
   .header nav.cloud ul {
-    width: 250px;
+    width: 100%;
   }
   
   .branding {
@@ -145,7 +142,6 @@ footer {
   .about .tile {
     width: 80%;
   }
-  
  
 }
 

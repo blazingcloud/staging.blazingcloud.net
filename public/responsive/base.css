@@ -18,7 +18,7 @@ a:hover  { color: rgb(226,143,86); }
 }
 
 #header-wrapper .header a.logo {
-  width: 70%;
+  width: 35%;
   float: left;
   font-size: 16px;
   text-decoration:none;
@@ -26,7 +26,7 @@ a:hover  { color: rgb(226,143,86); }
 
 nav.cloud ul {
   overflow: hidden;
-  width: 270px;
+  width: 310px;
   margin: 0 auto;
 }
 
@@ -183,12 +183,14 @@ code, pre {
 article, p {
   margin-top:1em;
 }
+
 nav.cloud {
-  width: 30%;
+  width: 50%;
   min-width: 165px;
   margin:0 auto;
   z-index:9999;
 }
+
 nav.cloud li {
   float:left;
   margin-right:1em;
@@ -300,7 +302,6 @@ body.services .main {
 .clients .logos-grid {
 	width: 100%;
 	overflow: hidden;
-	margin-top: 50px;
 }
 
 .clients .logos-grid .tile {

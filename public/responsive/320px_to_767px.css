@@ -23,7 +23,7 @@ body.services .main {
 }
 
 nav.cloud {
-  width:20em;
+  width:45%;
   margin:0 auto;
 }
 
@@ -33,7 +33,7 @@ nav.cloud {
 }
 
 .services #header-wrapper .header a.logo {
-  width: 60%;
+  width: 55%;
 }
 
 .services #header-wrapper .header a.logo div {
@@ -43,7 +43,6 @@ nav.cloud {
 .services #header-wrapper .header nav.cloud {
   position: inherit;
   margin: auto;
-  width: 211px;
 }
 
 .services div.content div.services-content {
@@ -76,7 +75,7 @@ nav.cloud {
 
 .clients .logos-grid .tile img {
 	margin: 30px 0px;
-	max-width: 100%;
+	max-width: 55%;
 }
 
 .clients .logos-grid .tile img.circular {
@@ -131,12 +130,7 @@ nav.cloud {
 
 nav.cloud {
   float: right;
-  width: 211px;
   padding: 22.5px 0;
-}
-
-nav.cloud ul {
-  width: 280px;
 }
 
 nav.cloud ul li {
@@ -266,7 +260,7 @@ footer section.bottom {
     
   #header-wrapper .header nav.cloud {
     display: block;
-    min-width: 225px;
+    min-width: 295px;
     float: none;
   }
     
