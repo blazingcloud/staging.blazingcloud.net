@@ -107,6 +107,10 @@ footer {
     width: 100%;
   }
   
+	nav.cloud ul li {
+	  padding: 0 4px;
+	}
+	
   .branding {
     height: 260px;
   }
@@ -152,7 +156,7 @@ footer {
   }
   
   .header nav.cloud ul {
-    width: 320px;
+    width: 100%;
     text-align: center;
   }
 
