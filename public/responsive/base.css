@@ -25,9 +25,18 @@ a:hover  { color: rgb(226,143,86); }
 }
 
 nav.cloud ul {
-  overflow: hidden;
-  width: 310px;
-  margin: 0 auto;
+	overflow: hidden;
+	width: 310px;
+}
+
+@media screen and (min-width:1420px) {
+	nav.cloud {
+		width: 50%;
+	}
+	
+	nav.cloud ul {
+		width: 370px;
+	}	
 }
 
 section.community a {
@@ -185,7 +194,6 @@ article, p {
 }
 
 nav.cloud {
-  width: 50%;
   min-width: 165px;
   margin:0 auto;
   z-index:9999;
@@ -297,6 +305,10 @@ body.services .main {
 .clients em {
 	padding-top: 9px;
 	padding-left: 50px;
+}
+
+.introduction p {
+	display: inline;
 }
 
 .clients .logos-grid {
@@ -416,5 +428,4 @@ body.portfolio .main {
   height: 400px;
   overflow: hidden;
 }
-
 
