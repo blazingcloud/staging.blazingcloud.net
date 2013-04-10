@@ -169,6 +169,11 @@ footer {
     background-position: 0 0;
     background-size: contain;
   }
+
+	article.tile p {
+		/* Word spacing reduced to give paragraphs a nicer aspect on smaller screens */
+		word-spacing: -1px
+	}
   
   nav.cloud {
       letter-spacing: 1.5px;
@@ -222,7 +227,7 @@ footer {
     margin-top: 30px;
   }
   
-  section.strategy .tile{
+  section.strategy .tile {
     width: 92%;
   }
   

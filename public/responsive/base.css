@@ -29,16 +29,6 @@ nav.cloud ul {
 	width: 310px;
 }
 
-@media screen and (min-width:1420px) {
-	nav.cloud {
-		width: 50%;
-	}
-	
-	nav.cloud ul {
-		width: 370px;
-	}	
-}
-
 section.community a {
   font-size: inherit;
   text-decoration: none;
