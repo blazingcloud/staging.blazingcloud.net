@@ -20,6 +20,7 @@ GEM
     mime-types (1.17.2)
     multi_json (1.1.0)
     multi_xml (0.4.1)
+    pivotal_git_scripts (1.1.4)
     rack (1.4.1)
     rack-protection (1.2.0)
       rack
@@ -56,6 +57,7 @@ DEPENDENCIES
   foreman
   heroku
   httparty
+  pivotal_git_scripts
   rack-test
   rspec
   sinatra
