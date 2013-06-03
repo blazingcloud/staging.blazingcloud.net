@@ -9,4 +9,6 @@ group :development,:test do
   gem 'rspec'
   gem 'rack-test'
 end
-gem 'pivotal_git_scripts'
+group :development do
+  gem 'pivotal_git_scripts'
+end
