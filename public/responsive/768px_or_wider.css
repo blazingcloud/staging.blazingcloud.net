@@ -55,6 +55,10 @@ section.services article.tile p{
   margin-right: 20px;
 }
 
+#header-wrapper .header a.logo {
+  width: 50%;
+}
+
 /*     Home     */
 #header-wrapper .header a.logo div {
   height: 68px;
