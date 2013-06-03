@@ -302,6 +302,7 @@ body.services .main {
 }
 
 .clients .logos-grid {
+  padding-top: 31px;
 	width: 100%;
 	overflow: hidden;
 }
