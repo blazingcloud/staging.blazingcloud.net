@@ -20,3 +20,4 @@ We're taking the old Sinatra site and re-implementing it as a Jekyll static site
 * public directory was copied over wholesale from sinatra project
 * all asset names had to be prepended with `/public`
 * https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/creating-a-github-pages-site-with-jekyll
+* https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/about-github-pages-and-jekyll changes

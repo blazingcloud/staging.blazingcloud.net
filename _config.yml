@@ -2,3 +2,14 @@ name: Blazing Cloud
 title: Blazing Cloud
 
 exclude: ['README.md']
+
+lsi: false
+safe: true
+source: .
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
