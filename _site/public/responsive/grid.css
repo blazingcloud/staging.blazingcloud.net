@@ -1,0 +1,33 @@
+
+
+
+/* we specify our body to be full explicitly - you may desire other
+ * values for internal structure to be less than this - please declare
+ * those seperately and nest them under body*/
+body {
+  margin: 0 auto;
+  width:100%;
+}
+
+/* our base tile takes up the whole display */
+.tile {
+  float:left;
+  width:99%;
+  margin-right:1%;
+}
+/* grid can appear multiple times in the display 
+ * each grid ensures that new tiles inside it begin on a new
+ * line */
+.clear,.grid {
+  clear:both;
+}
+
+/* our base grid tile*/
+.grid .tile {
+}
+
+/* optionally a grid tile can have a  leader - an image or another block element
+ * which the remaining content internal to the tile will flow around */
+.grid .tile > .leader {
+ /* float:left; /* content will flow around this  */ 
+}
