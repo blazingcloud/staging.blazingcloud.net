@@ -1,7 +1,7 @@
 name: Blazing Cloud
 title: Blazing Cloud
 
-exclude: ['README.md']
+exclude: ['README.md', 'CNAME']
 
 lsi: false
 safe: true
