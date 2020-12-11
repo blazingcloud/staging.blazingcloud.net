@@ -21,3 +21,10 @@ We're taking the old Sinatra site and re-implementing it as a Jekyll static site
 * all asset names had to be prepended with `/public`
 * https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/creating-a-github-pages-site-with-jekyll
 * https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/about-github-pages-and-jekyll changes
+
+## Staging
+
+* https://stackoverflow.com/a/32041901 says to hijack your CNAME file locally and use two repos. haha
+* TODO:
+  * point staging.blazingcloud.net to blazingcloud.github.io
+  * change CNAME to staging.blazingcloud.net
