@@ -1,4 +1,5 @@
 ---
-title: services
+title: Services
 layout: services
+pagename: services
 ---
