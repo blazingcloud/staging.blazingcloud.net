@@ -3,6 +3,7 @@
   <head>
     {% if jekyll.environment == 'production' %}
       {% include google_tracking.html %}
+      {% include matomo_tracking.html %}
     {% endif %}
     <script src="/public/modernizr.js"></script>
     <script src="/public/jquery-1.7.2.min.js"></script>
